@@ -1,0 +1,21 @@
+{
+  "source": "https://www.vgmusic.com/music/console/nintendo/nes/smb_overw.mid",
+  "source_page": "https://www.vgmusic.com/music/console/nintendo/nes/smb_overw.mid",
+  "source_crop_ticks": [
+    0,
+    3072
+  ],
+  "source_tempo_microseconds": 571428,
+  "frames": 924,
+  "frame_rate": 50,
+  "AY_clock_Hz": 1773400,
+  "audio_seconds": 18.48,
+  "channel_A": "Opening fanfare and first stage melody; original lead, bass and quieter counter-melody. Percussion briefly shares channel C.",
+  "channel_B": "low part, reduced volume",
+  "channel_C": "accompaniment, shared with short percussion",
+  "player_address": 32768,
+  "data_address": 32807,
+  "player_bytes": 39,
+  "tap_bytes": 13073,
+  "status": "first arrangement; preview is approximate synthesis, not a recording from physical hardware"
+}

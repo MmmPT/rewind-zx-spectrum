@@ -1,0 +1,18 @@
+{
+  "name": "REWIND",
+  "quiz_songs": 50,
+  "approved_arrangements": 50,
+  "modes": {
+    "normal": 25,
+    "full": 50
+  },
+  "order": "Fisher-Yates over all 50 on each new round; Normal takes first 25",
+  "answer_titles": 250,
+  "per_category": 25,
+  "menu_music": null,
+  "core_bytes": 8623,
+  "tap_bytes": 81189,
+  "compression": "LZ over lossless AY delta stream; one-song bank-7 cache",
+  "approved_AY_bytes_preserved": true,
+  "validated": "Z80 CPU, 128K ROM fast tape boot and native-loop preview; no physical hardware test"
+}

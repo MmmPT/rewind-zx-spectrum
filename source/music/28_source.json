@@ -1,0 +1,21 @@
+{
+  "source": "https://midifind.com/files/0-0-1-21755-20",
+  "source_page": "https://midifind.com/files/0-0-1-21755-20",
+  "source_crop_ticks": [
+    17280,
+    36480
+  ],
+  "source_tempo_microseconds": 422535,
+  "frames": 855,
+  "frame_rate": 50,
+  "AY_clock_Hz": 1773400,
+  "audio_seconds": 17.1,
+  "channel_A": "Main guitar riff extracted above the open D pedal and raised one octave; bass and light rhythm guitar.",
+  "channel_B": "low part, reduced volume",
+  "channel_C": "accompaniment, shared with short percussion",
+  "player_address": 32768,
+  "data_address": 32807,
+  "player_bytes": 39,
+  "tap_bytes": 12107,
+  "status": "first arrangement; preview is approximate synthesis, not a recording from physical hardware"
+}

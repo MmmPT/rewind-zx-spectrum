@@ -1,0 +1,1502 @@
+[
+  {
+    "id": 0,
+    "title": "Ghostbusters",
+    "category": "MOVIES",
+    "recorded": true
+  },
+  {
+    "id": 1,
+    "title": "Axel F",
+    "category": "MOVIES",
+    "recorded": true
+  },
+  {
+    "id": 2,
+    "title": "Back to the Future",
+    "category": "MOVIES",
+    "recorded": true
+  },
+  {
+    "id": 3,
+    "title": "Raiders March",
+    "category": "MOVIES",
+    "recorded": true
+  },
+  {
+    "id": 4,
+    "title": "Top Gun Anthem",
+    "category": "MOVIES",
+    "recorded": true
+  },
+  {
+    "id": 5,
+    "title": "Take on Me",
+    "category": "POP & ROCK",
+    "recorded": true
+  },
+  {
+    "id": 6,
+    "title": "The Final Countdown",
+    "category": "POP & ROCK",
+    "recorded": true
+  },
+  {
+    "id": 7,
+    "title": "Jump",
+    "category": "POP & ROCK",
+    "recorded": true
+  },
+  {
+    "id": 8,
+    "title": "Tainted Love",
+    "category": "POP & ROCK",
+    "recorded": true
+  },
+  {
+    "id": 9,
+    "title": "Tonight She Comes",
+    "category": "POP & ROCK",
+    "recorded": true
+  },
+  {
+    "id": 10,
+    "title": "Saber Rider",
+    "category": "CARTOONS",
+    "recorded": true
+  },
+  {
+    "id": 11,
+    "title": "Once Upon a Time... Man",
+    "category": "CARTOONS",
+    "recorded": true
+  },
+  {
+    "id": 12,
+    "title": "The Mysterious Cities of Gold",
+    "category": "CARTOONS",
+    "recorded": true
+  },
+  {
+    "id": 13,
+    "title": "Dogtanian",
+    "category": "CARTOONS",
+    "recorded": true
+  },
+  {
+    "id": 14,
+    "title": "Teenage Mutant Ninja Turtles",
+    "category": "CARTOONS",
+    "recorded": true
+  },
+  {
+    "id": 15,
+    "title": "Knight Rider",
+    "category": "TV SERIES",
+    "recorded": true
+  },
+  {
+    "id": 16,
+    "title": "The A-Team",
+    "category": "TV SERIES",
+    "recorded": true
+  },
+  {
+    "id": 17,
+    "title": "MacGyver",
+    "category": "TV SERIES",
+    "recorded": true
+  },
+  {
+    "id": 18,
+    "title": "Fraggle Rock",
+    "category": "TV SERIES",
+    "recorded": true
+  },
+  {
+    "id": 19,
+    "title": "Space: 1999",
+    "category": "TV SERIES",
+    "recorded": true
+  },
+  {
+    "id": 20,
+    "title": "Oxygene IV",
+    "category": "ELECTRONIC",
+    "recorded": true
+  },
+  {
+    "id": 21,
+    "title": "Equinoxe V",
+    "category": "ELECTRONIC",
+    "recorded": true
+  },
+  {
+    "id": 22,
+    "title": "Pulstar",
+    "category": "ELECTRONIC",
+    "recorded": true
+  },
+  {
+    "id": 23,
+    "title": "Chariots of Fire",
+    "category": "ELECTRONIC",
+    "recorded": true
+  },
+  {
+    "id": 24,
+    "title": "The Model",
+    "category": "ELECTRONIC",
+    "recorded": true
+  },
+  {
+    "id": 25,
+    "title": "Just Like Heaven",
+    "category": "GOTHIC",
+    "recorded": true
+  },
+  {
+    "id": 26,
+    "title": "Temple of Love",
+    "category": "GOTHIC",
+    "recorded": true
+  },
+  {
+    "id": 27,
+    "title": "Love Will Tear Us Apart",
+    "category": "GOTHIC",
+    "recorded": true
+  },
+  {
+    "id": 28,
+    "title": "She Sells Sanctuary",
+    "category": "GOTHIC",
+    "recorded": true
+  },
+  {
+    "id": 29,
+    "title": "The Killing Moon",
+    "category": "GOTHIC",
+    "recorded": true
+  },
+  {
+    "id": 30,
+    "title": "The Trooper",
+    "category": "METAL",
+    "recorded": true
+  },
+  {
+    "id": 31,
+    "title": "Master of Puppets",
+    "category": "METAL",
+    "recorded": true
+  },
+  {
+    "id": 32,
+    "title": "Fighting the World",
+    "category": "METAL",
+    "recorded": true
+  },
+  {
+    "id": 33,
+    "title": "Mr. Crowley",
+    "category": "METAL",
+    "recorded": true
+  },
+  {
+    "id": 34,
+    "title": "I Want Out",
+    "category": "METAL",
+    "recorded": true
+  },
+  {
+    "id": 35,
+    "title": "Super Mario Bros.",
+    "category": "VIDEO GAMES",
+    "recorded": true
+  },
+  {
+    "id": 36,
+    "title": "Tetris",
+    "category": "VIDEO GAMES",
+    "recorded": true
+  },
+  {
+    "id": 37,
+    "title": "Out Run",
+    "category": "VIDEO GAMES",
+    "recorded": true
+  },
+  {
+    "id": 38,
+    "title": "The Legend of Zelda",
+    "category": "VIDEO GAMES",
+    "recorded": true
+  },
+  {
+    "id": 39,
+    "title": "Bubble Bobble",
+    "category": "VIDEO GAMES",
+    "recorded": true
+  },
+  {
+    "id": 40,
+    "title": "Big in Japan",
+    "category": "SYNTH-POP",
+    "recorded": true
+  },
+  {
+    "id": 41,
+    "title": "Just Can't Get Enough",
+    "category": "SYNTH-POP",
+    "recorded": true
+  },
+  {
+    "id": 42,
+    "title": "Don't You Want Me",
+    "category": "SYNTH-POP",
+    "recorded": true
+  },
+  {
+    "id": 43,
+    "title": "Sometimes",
+    "category": "SYNTH-POP",
+    "recorded": true
+  },
+  {
+    "id": 44,
+    "title": "West End Girls",
+    "category": "SYNTH-POP",
+    "recorded": true
+  },
+  {
+    "id": 45,
+    "title": "Like a Virgin",
+    "category": "DANCE",
+    "recorded": true
+  },
+  {
+    "id": 46,
+    "title": "You Spin Me Round",
+    "category": "DANCE",
+    "recorded": true
+  },
+  {
+    "id": 47,
+    "title": "Never Gonna Give You Up",
+    "category": "DANCE",
+    "recorded": true
+  },
+  {
+    "id": 48,
+    "title": "Walk Like an Egyptian",
+    "category": "DANCE",
+    "recorded": true
+  },
+  {
+    "id": 49,
+    "title": "I Should Be So Lucky",
+    "category": "DANCE",
+    "recorded": true
+  },
+  {
+    "id": 50,
+    "title": "The Breakfast Club",
+    "category": "MOVIES",
+    "recorded": false
+  },
+  {
+    "id": 51,
+    "title": "The Terminator",
+    "category": "MOVIES",
+    "recorded": false
+  },
+  {
+    "id": 52,
+    "title": "The NeverEnding Story",
+    "category": "MOVIES",
+    "recorded": false
+  },
+  {
+    "id": 53,
+    "title": "Footloose",
+    "category": "MOVIES",
+    "recorded": false
+  },
+  {
+    "id": 54,
+    "title": "Flashdance",
+    "category": "MOVIES",
+    "recorded": false
+  },
+  {
+    "id": 55,
+    "title": "Dirty Dancing",
+    "category": "MOVIES",
+    "recorded": false
+  },
+  {
+    "id": 56,
+    "title": "The Goonies",
+    "category": "MOVIES",
+    "recorded": false
+  },
+  {
+    "id": 57,
+    "title": "Gremlins",
+    "category": "MOVIES",
+    "recorded": false
+  },
+  {
+    "id": 58,
+    "title": "E.T.",
+    "category": "MOVIES",
+    "recorded": false
+  },
+  {
+    "id": 59,
+    "title": "Batman",
+    "category": "MOVIES",
+    "recorded": false
+  },
+  {
+    "id": 60,
+    "title": "The Karate Kid",
+    "category": "MOVIES",
+    "recorded": false
+  },
+  {
+    "id": 61,
+    "title": "Rocky",
+    "category": "MOVIES",
+    "recorded": false
+  },
+  {
+    "id": 62,
+    "title": "Police Academy",
+    "category": "MOVIES",
+    "recorded": false
+  },
+  {
+    "id": 63,
+    "title": "The Pink Panther",
+    "category": "MOVIES",
+    "recorded": false
+  },
+  {
+    "id": 64,
+    "title": "The Blues Brothers",
+    "category": "MOVIES",
+    "recorded": false
+  },
+  {
+    "id": 65,
+    "title": "Crocodile Dundee",
+    "category": "MOVIES",
+    "recorded": false
+  },
+  {
+    "id": 66,
+    "title": "Labyrinth",
+    "category": "MOVIES",
+    "recorded": false
+  },
+  {
+    "id": 67,
+    "title": "The Last Starfighter",
+    "category": "MOVIES",
+    "recorded": false
+  },
+  {
+    "id": 68,
+    "title": "Star Wars",
+    "category": "MOVIES",
+    "recorded": false
+  },
+  {
+    "id": 69,
+    "title": "Superman",
+    "category": "MOVIES",
+    "recorded": false
+  },
+  {
+    "id": 70,
+    "title": "The Power of Love",
+    "category": "POP & ROCK",
+    "recorded": false
+  },
+  {
+    "id": 71,
+    "title": "Everybody Wants to Rule the World",
+    "category": "POP & ROCK",
+    "recorded": false
+  },
+  {
+    "id": 72,
+    "title": "Girls Just Want to Have Fun",
+    "category": "POP & ROCK",
+    "recorded": false
+  },
+  {
+    "id": 73,
+    "title": "Wake Me Up Before You Go-Go",
+    "category": "POP & ROCK",
+    "recorded": false
+  },
+  {
+    "id": 74,
+    "title": "Walking on Sunshine",
+    "category": "POP & ROCK",
+    "recorded": false
+  },
+  {
+    "id": 75,
+    "title": "Africa",
+    "category": "POP & ROCK",
+    "recorded": false
+  },
+  {
+    "id": 76,
+    "title": "Down Under",
+    "category": "POP & ROCK",
+    "recorded": false
+  },
+  {
+    "id": 77,
+    "title": "Come On Eileen",
+    "category": "POP & ROCK",
+    "recorded": false
+  },
+  {
+    "id": 78,
+    "title": "Eye of the Tiger",
+    "category": "POP & ROCK",
+    "recorded": false
+  },
+  {
+    "id": 79,
+    "title": "Livin' on a Prayer",
+    "category": "POP & ROCK",
+    "recorded": false
+  },
+  {
+    "id": 80,
+    "title": "Rebel Yell",
+    "category": "POP & ROCK",
+    "recorded": false
+  },
+  {
+    "id": 81,
+    "title": "Summer of '69",
+    "category": "POP & ROCK",
+    "recorded": false
+  },
+  {
+    "id": 82,
+    "title": "Every Breath You Take",
+    "category": "POP & ROCK",
+    "recorded": false
+  },
+  {
+    "id": 83,
+    "title": "Money for Nothing",
+    "category": "POP & ROCK",
+    "recorded": false
+  },
+  {
+    "id": 84,
+    "title": "Sledgehammer",
+    "category": "POP & ROCK",
+    "recorded": false
+  },
+  {
+    "id": 85,
+    "title": "Hungry Like the Wolf",
+    "category": "POP & ROCK",
+    "recorded": false
+  },
+  {
+    "id": 86,
+    "title": "Shout",
+    "category": "POP & ROCK",
+    "recorded": false
+  },
+  {
+    "id": 87,
+    "title": "True",
+    "category": "POP & ROCK",
+    "recorded": false
+  },
+  {
+    "id": 88,
+    "title": "Dancing in the Dark",
+    "category": "POP & ROCK",
+    "recorded": false
+  },
+  {
+    "id": 89,
+    "title": "Faith",
+    "category": "POP & ROCK",
+    "recorded": false
+  },
+  {
+    "id": 90,
+    "title": "ThunderCats",
+    "category": "CARTOONS",
+    "recorded": false
+  },
+  {
+    "id": 91,
+    "title": "He-Man and the Masters of the Universe",
+    "category": "CARTOONS",
+    "recorded": false
+  },
+  {
+    "id": 92,
+    "title": "Transformers",
+    "category": "CARTOONS",
+    "recorded": false
+  },
+  {
+    "id": 93,
+    "title": "Inspector Gadget",
+    "category": "CARTOONS",
+    "recorded": false
+  },
+  {
+    "id": 94,
+    "title": "DuckTales",
+    "category": "CARTOONS",
+    "recorded": false
+  },
+  {
+    "id": 95,
+    "title": "The Smurfs",
+    "category": "CARTOONS",
+    "recorded": false
+  },
+  {
+    "id": 96,
+    "title": "Gummi Bears",
+    "category": "CARTOONS",
+    "recorded": false
+  },
+  {
+    "id": 97,
+    "title": "Chip 'n Dale Rescue Rangers",
+    "category": "CARTOONS",
+    "recorded": false
+  },
+  {
+    "id": 98,
+    "title": "SilverHawks",
+    "category": "CARTOONS",
+    "recorded": false
+  },
+  {
+    "id": 99,
+    "title": "M.A.S.K.",
+    "category": "CARTOONS",
+    "recorded": false
+  },
+  {
+    "id": 100,
+    "title": "Ulysses 31",
+    "category": "CARTOONS",
+    "recorded": false
+  },
+  {
+    "id": 101,
+    "title": "Dungeons & Dragons",
+    "category": "CARTOONS",
+    "recorded": false
+  },
+  {
+    "id": 102,
+    "title": "The Raccoons",
+    "category": "CARTOONS",
+    "recorded": false
+  },
+  {
+    "id": 103,
+    "title": "The Real Ghostbusters",
+    "category": "CARTOONS",
+    "recorded": false
+  },
+  {
+    "id": 104,
+    "title": "Danger Mouse",
+    "category": "CARTOONS",
+    "recorded": false
+  },
+  {
+    "id": 105,
+    "title": "Count Duckula",
+    "category": "CARTOONS",
+    "recorded": false
+  },
+  {
+    "id": 106,
+    "title": "Bananaman",
+    "category": "CARTOONS",
+    "recorded": false
+  },
+  {
+    "id": 107,
+    "title": "SuperTed",
+    "category": "CARTOONS",
+    "recorded": false
+  },
+  {
+    "id": 108,
+    "title": "Dennis the Menace",
+    "category": "CARTOONS",
+    "recorded": false
+  },
+  {
+    "id": 109,
+    "title": "Alvin and the Chipmunks",
+    "category": "CARTOONS",
+    "recorded": false
+  },
+  {
+    "id": 110,
+    "title": "Airwolf",
+    "category": "TV SERIES",
+    "recorded": false
+  },
+  {
+    "id": 111,
+    "title": "Magnum P.I.",
+    "category": "TV SERIES",
+    "recorded": false
+  },
+  {
+    "id": 112,
+    "title": "Miami Vice",
+    "category": "TV SERIES",
+    "recorded": false
+  },
+  {
+    "id": 113,
+    "title": "Dallas",
+    "category": "TV SERIES",
+    "recorded": false
+  },
+  {
+    "id": 114,
+    "title": "Dynasty",
+    "category": "TV SERIES",
+    "recorded": false
+  },
+  {
+    "id": 115,
+    "title": "The Dukes of Hazzard",
+    "category": "TV SERIES",
+    "recorded": false
+  },
+  {
+    "id": 116,
+    "title": "CHiPs",
+    "category": "TV SERIES",
+    "recorded": false
+  },
+  {
+    "id": 117,
+    "title": "Hill Street Blues",
+    "category": "TV SERIES",
+    "recorded": false
+  },
+  {
+    "id": 118,
+    "title": "The Equalizer",
+    "category": "TV SERIES",
+    "recorded": false
+  },
+  {
+    "id": 119,
+    "title": "The Fall Guy",
+    "category": "TV SERIES",
+    "recorded": false
+  },
+  {
+    "id": 120,
+    "title": "Remington Steele",
+    "category": "TV SERIES",
+    "recorded": false
+  },
+  {
+    "id": 121,
+    "title": "Murder, She Wrote",
+    "category": "TV SERIES",
+    "recorded": false
+  },
+  {
+    "id": 122,
+    "title": "Cheers",
+    "category": "TV SERIES",
+    "recorded": false
+  },
+  {
+    "id": 123,
+    "title": "The Golden Girls",
+    "category": "TV SERIES",
+    "recorded": false
+  },
+  {
+    "id": 124,
+    "title": "Family Ties",
+    "category": "TV SERIES",
+    "recorded": false
+  },
+  {
+    "id": 125,
+    "title": "ALF",
+    "category": "TV SERIES",
+    "recorded": false
+  },
+  {
+    "id": 126,
+    "title": "The Greatest American Hero",
+    "category": "TV SERIES",
+    "recorded": false
+  },
+  {
+    "id": 127,
+    "title": "St. Elsewhere",
+    "category": "TV SERIES",
+    "recorded": false
+  },
+  {
+    "id": 128,
+    "title": "Hawaii Five-O",
+    "category": "TV SERIES",
+    "recorded": false
+  },
+  {
+    "id": 129,
+    "title": "The Love Boat",
+    "category": "TV SERIES",
+    "recorded": false
+  },
+  {
+    "id": 130,
+    "title": "Magnetic Fields II",
+    "category": "ELECTRONIC",
+    "recorded": false
+  },
+  {
+    "id": 131,
+    "title": "Rendez-Vous IV",
+    "category": "ELECTRONIC",
+    "recorded": false
+  },
+  {
+    "id": 132,
+    "title": "Rendez-Vous II",
+    "category": "ELECTRONIC",
+    "recorded": false
+  },
+  {
+    "id": 133,
+    "title": "Zoolook",
+    "category": "ELECTRONIC",
+    "recorded": false
+  },
+  {
+    "id": 134,
+    "title": "Oxygene II",
+    "category": "ELECTRONIC",
+    "recorded": false
+  },
+  {
+    "id": 135,
+    "title": "Oxygene VI",
+    "category": "ELECTRONIC",
+    "recorded": false
+  },
+  {
+    "id": 136,
+    "title": "Equinoxe IV",
+    "category": "ELECTRONIC",
+    "recorded": false
+  },
+  {
+    "id": 137,
+    "title": "Equinoxe VII",
+    "category": "ELECTRONIC",
+    "recorded": false
+  },
+  {
+    "id": 138,
+    "title": "Souvenir de Chine",
+    "category": "ELECTRONIC",
+    "recorded": false
+  },
+  {
+    "id": 139,
+    "title": "Industrial Revolution II",
+    "category": "ELECTRONIC",
+    "recorded": false
+  },
+  {
+    "id": 140,
+    "title": "Revolutions",
+    "category": "ELECTRONIC",
+    "recorded": false
+  },
+  {
+    "id": 141,
+    "title": "Blade Runner Love Theme",
+    "category": "ELECTRONIC",
+    "recorded": false
+  },
+  {
+    "id": 142,
+    "title": "Blade Runner End Titles",
+    "category": "ELECTRONIC",
+    "recorded": false
+  },
+  {
+    "id": 143,
+    "title": "To the Unknown Man",
+    "category": "ELECTRONIC",
+    "recorded": false
+  },
+  {
+    "id": 144,
+    "title": "Hymne",
+    "category": "ELECTRONIC",
+    "recorded": false
+  },
+  {
+    "id": 145,
+    "title": "Alpha",
+    "category": "ELECTRONIC",
+    "recorded": false
+  },
+  {
+    "id": 146,
+    "title": "Spiral",
+    "category": "ELECTRONIC",
+    "recorded": false
+  },
+  {
+    "id": 147,
+    "title": "Dervish D",
+    "category": "ELECTRONIC",
+    "recorded": false
+  },
+  {
+    "id": 148,
+    "title": "Antarctica",
+    "category": "ELECTRONIC",
+    "recorded": false
+  },
+  {
+    "id": 149,
+    "title": "Autobahn",
+    "category": "ELECTRONIC",
+    "recorded": false
+  },
+  {
+    "id": 150,
+    "title": "Bela Lugosi's Dead",
+    "category": "GOTHIC",
+    "recorded": false
+  },
+  {
+    "id": 151,
+    "title": "She's in Parties",
+    "category": "GOTHIC",
+    "recorded": false
+  },
+  {
+    "id": 152,
+    "title": "Dark Entries",
+    "category": "GOTHIC",
+    "recorded": false
+  },
+  {
+    "id": 153,
+    "title": "Spellbound",
+    "category": "GOTHIC",
+    "recorded": false
+  },
+  {
+    "id": 154,
+    "title": "Cities in Dust",
+    "category": "GOTHIC",
+    "recorded": false
+  },
+  {
+    "id": 155,
+    "title": "Hong Kong Garden",
+    "category": "GOTHIC",
+    "recorded": false
+  },
+  {
+    "id": 156,
+    "title": "Happy House",
+    "category": "GOTHIC",
+    "recorded": false
+  },
+  {
+    "id": 157,
+    "title": "Charlotte Sometimes",
+    "category": "GOTHIC",
+    "recorded": false
+  },
+  {
+    "id": 158,
+    "title": "A Forest",
+    "category": "GOTHIC",
+    "recorded": false
+  },
+  {
+    "id": 159,
+    "title": "The Lovecats",
+    "category": "GOTHIC",
+    "recorded": false
+  },
+  {
+    "id": 160,
+    "title": "Lullaby",
+    "category": "GOTHIC",
+    "recorded": false
+  },
+  {
+    "id": 161,
+    "title": "Close to Me",
+    "category": "GOTHIC",
+    "recorded": false
+  },
+  {
+    "id": 162,
+    "title": "In Between Days",
+    "category": "GOTHIC",
+    "recorded": false
+  },
+  {
+    "id": 163,
+    "title": "This Corrosion",
+    "category": "GOTHIC",
+    "recorded": false
+  },
+  {
+    "id": 164,
+    "title": "Marian",
+    "category": "GOTHIC",
+    "recorded": false
+  },
+  {
+    "id": 165,
+    "title": "Lucretia My Reflection",
+    "category": "GOTHIC",
+    "recorded": false
+  },
+  {
+    "id": 166,
+    "title": "Dominion",
+    "category": "GOTHIC",
+    "recorded": false
+  },
+  {
+    "id": 167,
+    "title": "Love Like Blood",
+    "category": "GOTHIC",
+    "recorded": false
+  },
+  {
+    "id": 168,
+    "title": "Eighties",
+    "category": "GOTHIC",
+    "recorded": false
+  },
+  {
+    "id": 169,
+    "title": "Wasteland",
+    "category": "GOTHIC",
+    "recorded": false
+  },
+  {
+    "id": 170,
+    "title": "Run to the Hills",
+    "category": "METAL",
+    "recorded": false
+  },
+  {
+    "id": 171,
+    "title": "Aces High",
+    "category": "METAL",
+    "recorded": false
+  },
+  {
+    "id": 172,
+    "title": "The Number of the Beast",
+    "category": "METAL",
+    "recorded": false
+  },
+  {
+    "id": 173,
+    "title": "Two Minutes to Midnight",
+    "category": "METAL",
+    "recorded": false
+  },
+  {
+    "id": 174,
+    "title": "Hallowed Be Thy Name",
+    "category": "METAL",
+    "recorded": false
+  },
+  {
+    "id": 175,
+    "title": "Wasted Years",
+    "category": "METAL",
+    "recorded": false
+  },
+  {
+    "id": 176,
+    "title": "Crazy Train",
+    "category": "METAL",
+    "recorded": false
+  },
+  {
+    "id": 177,
+    "title": "Bark at the Moon",
+    "category": "METAL",
+    "recorded": false
+  },
+  {
+    "id": 178,
+    "title": "Shot in the Dark",
+    "category": "METAL",
+    "recorded": false
+  },
+  {
+    "id": 179,
+    "title": "Heaven and Hell",
+    "category": "METAL",
+    "recorded": false
+  },
+  {
+    "id": 180,
+    "title": "Holy Diver",
+    "category": "METAL",
+    "recorded": false
+  },
+  {
+    "id": 181,
+    "title": "Rainbow in the Dark",
+    "category": "METAL",
+    "recorded": false
+  },
+  {
+    "id": 182,
+    "title": "Balls to the Wall",
+    "category": "METAL",
+    "recorded": false
+  },
+  {
+    "id": 183,
+    "title": "Ace of Spades",
+    "category": "METAL",
+    "recorded": false
+  },
+  {
+    "id": 184,
+    "title": "Fast as a Shark",
+    "category": "METAL",
+    "recorded": false
+  },
+  {
+    "id": 185,
+    "title": "Princess of the Night",
+    "category": "METAL",
+    "recorded": false
+  },
+  {
+    "id": 186,
+    "title": "Battle Hymn",
+    "category": "METAL",
+    "recorded": false
+  },
+  {
+    "id": 187,
+    "title": "Hail and Kill",
+    "category": "METAL",
+    "recorded": false
+  },
+  {
+    "id": 188,
+    "title": "Dr. Stein",
+    "category": "METAL",
+    "recorded": false
+  },
+  {
+    "id": 189,
+    "title": "Eagle Fly Free",
+    "category": "METAL",
+    "recorded": false
+  },
+  {
+    "id": 190,
+    "title": "Pac-Man",
+    "category": "VIDEO GAMES",
+    "recorded": false
+  },
+  {
+    "id": 191,
+    "title": "Space Harrier",
+    "category": "VIDEO GAMES",
+    "recorded": false
+  },
+  {
+    "id": 192,
+    "title": "After Burner",
+    "category": "VIDEO GAMES",
+    "recorded": false
+  },
+  {
+    "id": 193,
+    "title": "Arkanoid",
+    "category": "VIDEO GAMES",
+    "recorded": false
+  },
+  {
+    "id": 194,
+    "title": "R-Type",
+    "category": "VIDEO GAMES",
+    "recorded": false
+  },
+  {
+    "id": 195,
+    "title": "Commando",
+    "category": "VIDEO GAMES",
+    "recorded": false
+  },
+  {
+    "id": 196,
+    "title": "Ghosts 'n Goblins",
+    "category": "VIDEO GAMES",
+    "recorded": false
+  },
+  {
+    "id": 197,
+    "title": "Ghouls 'n Ghosts",
+    "category": "VIDEO GAMES",
+    "recorded": false
+  },
+  {
+    "id": 198,
+    "title": "Green Beret",
+    "category": "VIDEO GAMES",
+    "recorded": false
+  },
+  {
+    "id": 199,
+    "title": "Monty on the Run",
+    "category": "VIDEO GAMES",
+    "recorded": false
+  },
+  {
+    "id": 200,
+    "title": "Auf Wiedersehen Monty",
+    "category": "VIDEO GAMES",
+    "recorded": false
+  },
+  {
+    "id": 201,
+    "title": "The Last Ninja",
+    "category": "VIDEO GAMES",
+    "recorded": false
+  },
+  {
+    "id": 202,
+    "title": "International Karate",
+    "category": "VIDEO GAMES",
+    "recorded": false
+  },
+  {
+    "id": 203,
+    "title": "Skate or Die",
+    "category": "VIDEO GAMES",
+    "recorded": false
+  },
+  {
+    "id": 204,
+    "title": "Boulder Dash",
+    "category": "VIDEO GAMES",
+    "recorded": false
+  },
+  {
+    "id": 205,
+    "title": "Frogger",
+    "category": "VIDEO GAMES",
+    "recorded": false
+  },
+  {
+    "id": 206,
+    "title": "Paperboy",
+    "category": "VIDEO GAMES",
+    "recorded": false
+  },
+  {
+    "id": 207,
+    "title": "Gauntlet",
+    "category": "VIDEO GAMES",
+    "recorded": false
+  },
+  {
+    "id": 208,
+    "title": "Bomb Jack",
+    "category": "VIDEO GAMES",
+    "recorded": false
+  },
+  {
+    "id": 209,
+    "title": "Double Dragon",
+    "category": "VIDEO GAMES",
+    "recorded": false
+  },
+  {
+    "id": 210,
+    "title": "Blue Monday",
+    "category": "SYNTH-POP",
+    "recorded": false
+  },
+  {
+    "id": 211,
+    "title": "Smalltown Boy",
+    "category": "SYNTH-POP",
+    "recorded": false
+  },
+  {
+    "id": 212,
+    "title": "Such a Shame",
+    "category": "SYNTH-POP",
+    "recorded": false
+  },
+  {
+    "id": 213,
+    "title": "It's My Life",
+    "category": "SYNTH-POP",
+    "recorded": false
+  },
+  {
+    "id": 214,
+    "title": "Don't Go",
+    "category": "SYNTH-POP",
+    "recorded": false
+  },
+  {
+    "id": 215,
+    "title": "Only You",
+    "category": "SYNTH-POP",
+    "recorded": false
+  },
+  {
+    "id": 216,
+    "title": "Too Shy",
+    "category": "SYNTH-POP",
+    "recorded": false
+  },
+  {
+    "id": 217,
+    "title": "Vienna",
+    "category": "SYNTH-POP",
+    "recorded": false
+  },
+  {
+    "id": 218,
+    "title": "Enola Gay",
+    "category": "SYNTH-POP",
+    "recorded": false
+  },
+  {
+    "id": 219,
+    "title": "Souvenir",
+    "category": "SYNTH-POP",
+    "recorded": false
+  },
+  {
+    "id": 220,
+    "title": "The Look of Love",
+    "category": "SYNTH-POP",
+    "recorded": false
+  },
+  {
+    "id": 221,
+    "title": "Fade to Grey",
+    "category": "SYNTH-POP",
+    "recorded": false
+  },
+  {
+    "id": 222,
+    "title": "Cars",
+    "category": "SYNTH-POP",
+    "recorded": false
+  },
+  {
+    "id": 223,
+    "title": "Are Friends Electric?",
+    "category": "SYNTH-POP",
+    "recorded": false
+  },
+  {
+    "id": 224,
+    "title": "Forever Young",
+    "category": "SYNTH-POP",
+    "recorded": false
+  },
+  {
+    "id": 225,
+    "title": "Sounds Like a Melody",
+    "category": "SYNTH-POP",
+    "recorded": false
+  },
+  {
+    "id": 226,
+    "title": "Relax",
+    "category": "SYNTH-POP",
+    "recorded": false
+  },
+  {
+    "id": 227,
+    "title": "The Safety Dance",
+    "category": "SYNTH-POP",
+    "recorded": false
+  },
+  {
+    "id": 228,
+    "title": "Love Action",
+    "category": "SYNTH-POP",
+    "recorded": false
+  },
+  {
+    "id": 229,
+    "title": "Human",
+    "category": "SYNTH-POP",
+    "recorded": false
+  },
+  {
+    "id": 230,
+    "title": "Holiday",
+    "category": "DANCE",
+    "recorded": false
+  },
+  {
+    "id": 231,
+    "title": "Material Girl",
+    "category": "DANCE",
+    "recorded": false
+  },
+  {
+    "id": 232,
+    "title": "Papa Don't Preach",
+    "category": "DANCE",
+    "recorded": false
+  },
+  {
+    "id": 233,
+    "title": "Express Yourself",
+    "category": "DANCE",
+    "recorded": false
+  },
+  {
+    "id": 234,
+    "title": "La Isla Bonita",
+    "category": "DANCE",
+    "recorded": false
+  },
+  {
+    "id": 235,
+    "title": "True Blue",
+    "category": "DANCE",
+    "recorded": false
+  },
+  {
+    "id": 236,
+    "title": "Open Your Heart",
+    "category": "DANCE",
+    "recorded": false
+  },
+  {
+    "id": 237,
+    "title": "Lucky Star",
+    "category": "DANCE",
+    "recorded": false
+  },
+  {
+    "id": 238,
+    "title": "Love in the First Degree",
+    "category": "DANCE",
+    "recorded": false
+  },
+  {
+    "id": 239,
+    "title": "Robert De Niro's Waiting",
+    "category": "DANCE",
+    "recorded": false
+  },
+  {
+    "id": 240,
+    "title": "I Heard a Rumour",
+    "category": "DANCE",
+    "recorded": false
+  },
+  {
+    "id": 241,
+    "title": "Respectable",
+    "category": "DANCE",
+    "recorded": false
+  },
+  {
+    "id": 242,
+    "title": "Showing Out",
+    "category": "DANCE",
+    "recorded": false
+  },
+  {
+    "id": 243,
+    "title": "Together Forever",
+    "category": "DANCE",
+    "recorded": false
+  },
+  {
+    "id": 244,
+    "title": "Whenever You Need Somebody",
+    "category": "DANCE",
+    "recorded": false
+  },
+  {
+    "id": 245,
+    "title": "Toy Boy",
+    "category": "DANCE",
+    "recorded": false
+  },
+  {
+    "id": 246,
+    "title": "Boys",
+    "category": "DANCE",
+    "recorded": false
+  },
+  {
+    "id": 247,
+    "title": "Touch Me",
+    "category": "DANCE",
+    "recorded": false
+  },
+  {
+    "id": 248,
+    "title": "The Loco-Motion",
+    "category": "DANCE",
+    "recorded": false
+  },
+  {
+    "id": 249,
+    "title": "Got to Be Certain",
+    "category": "DANCE",
+    "recorded": false
+  }
+]

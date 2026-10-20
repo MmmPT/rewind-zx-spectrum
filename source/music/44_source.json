@@ -1,0 +1,21 @@
+{
+  "source": "https://bitmidi.com/uploads/109503.mid",
+  "source_page": "https://bitmidi.com/uploads/109503.mid",
+  "source_crop_ticks": [
+    45120,
+    56832
+  ],
+  "source_tempo_microseconds": 521730,
+  "frames": 806,
+  "frame_rate": 50,
+  "AY_clock_Hz": 1773400,
+  "audio_seconds": 16.12,
+  "channel_A": "First sung chorus melody, with the bass up one octave and quiet sustained harmony; source street sound effects omitted.",
+  "channel_B": "low part, reduced volume",
+  "channel_C": "accompaniment, shared with short percussion",
+  "player_address": 32768,
+  "data_address": 32807,
+  "player_bytes": 39,
+  "tap_bytes": 11421,
+  "status": "first arrangement; preview is approximate synthesis, not a recording from physical hardware"
+}

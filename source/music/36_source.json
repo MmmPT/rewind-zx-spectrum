@@ -1,0 +1,21 @@
+{
+  "source": "https://www.vgmusic.com/music/console/nintendo/gameboy/tetris-music_a_11.mid",
+  "source_page": "https://www.vgmusic.com/music/console/nintendo/gameboy/tetris-music_a_11.mid",
+  "source_crop_ticks": [
+    0,
+    15360
+  ],
+  "source_tempo_microseconds": 400000,
+  "frames": 650,
+  "frame_rate": 50,
+  "AY_clock_Hz": 1773400,
+  "audio_seconds": 13.0,
+  "channel_A": "First complete eight-bar Korobeiniki melody, lead and bass up one octave; very quiet chord support, without the source remix drums.",
+  "channel_B": "low part, reduced volume",
+  "channel_C": "accompaniment, shared with short percussion",
+  "player_address": 32768,
+  "data_address": 32807,
+  "player_bytes": 39,
+  "tap_bytes": 9237,
+  "status": "first arrangement; preview is approximate synthesis, not a recording from physical hardware"
+}

@@ -1,0 +1,21 @@
+{
+  "source": "https://bitmidi.com/uploads/83297.mid",
+  "source_page": "https://bitmidi.com/oxygene-part-4-1-mid",
+  "source_crop_ticks": [
+    6912,
+    13056
+  ],
+  "source_tempo_microseconds": 495867,
+  "frames": 803,
+  "frame_rate": 50,
+  "AY_clock_Hz": 1773400,
+  "audio_seconds": 16.06,
+  "channel_A": "Main melody from MIDI channel 4; bass channel 2; chord pad channel 8 with restrained percussion.",
+  "channel_B": "low part, reduced volume",
+  "channel_C": "accompaniment, shared with short percussion",
+  "player_address": 32768,
+  "data_address": 32807,
+  "player_bytes": 39,
+  "tap_bytes": 11379,
+  "status": "first arrangement; preview is approximate synthesis, not a recording from physical hardware"
+}

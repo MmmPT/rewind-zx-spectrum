@@ -1,0 +1,21 @@
+{
+  "source": "https://bitmidi.com/uploads/61230.mid",
+  "source_page": "https://bitmidi.com/iron-maden-the-trooper-k-mid",
+  "source_crop_ticks": [
+    0,
+    23040
+  ],
+  "source_tempo_microseconds": 370370,
+  "frames": 899,
+  "frame_rate": 50,
+  "AY_clock_Hz": 1773400,
+  "audio_seconds": 17.98,
+  "channel_A": "Opening lead guitar up one octave, original bass and quieter second guitar; B-flat source typos corrected to B natural in the selected E-minor intro.",
+  "channel_B": "low part, reduced volume",
+  "channel_C": "accompaniment, shared with short percussion",
+  "player_address": 32768,
+  "data_address": 32807,
+  "player_bytes": 39,
+  "tap_bytes": 12723,
+  "status": "first arrangement; preview is approximate synthesis, not a recording from physical hardware"
+}

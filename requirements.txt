@@ -1,0 +1,7 @@
+pyz80==1.3.0
+skoolkit==10.1
+z80
+Pillow
+numpy
+scipy
+mido

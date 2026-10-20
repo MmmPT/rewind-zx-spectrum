@@ -1,0 +1,21 @@
+{
+  "source": "https://bitmidi.com/uploads/95050.mid",
+  "source_page": "https://bitmidi.com/softcell-tainted-love-l-mid",
+  "source_crop_ticks": [
+    15360,
+    30720
+  ],
+  "source_tempo_microseconds": 405405,
+  "frames": 821,
+  "frame_rate": 50,
+  "AY_clock_Hz": 1773400,
+  "audio_seconds": 16.42,
+  "channel_A": "intro motif, then vocal tune raised one octave, MIDI channels 5 and 8",
+  "channel_B": "bass, MIDI channel 0, +12 semitones",
+  "channel_C": "brass stabs and percussion",
+  "player_address": 32768,
+  "data_address": 32807,
+  "player_bytes": 39,
+  "tap_bytes": 11631,
+  "status": "first arrangement; preview is approximate synthesis, not a recording from physical hardware"
+}

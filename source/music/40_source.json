@@ -1,0 +1,21 @@
+{
+  "source": "https://bitmidi.com/uploads/5603.mid",
+  "source_page": "https://bitmidi.com/uploads/5603.mid",
+  "source_crop_ticks": [
+    0,
+    12288
+  ],
+  "source_tempo_microseconds": 540540,
+  "frames": 875,
+  "frame_rate": 50,
+  "AY_clock_Hz": 1773400,
+  "audio_seconds": 17.5,
+  "channel_A": "Eight-bar opening synth hook, corrected down two semitones to D minor and lifted one octave. Melody on A, softer bass on B, short percussion on C. Delayed duplicate melody and vocal chorus omitted.",
+  "channel_B": "low part, reduced volume",
+  "channel_C": "accompaniment, shared with short percussion",
+  "player_address": 32768,
+  "data_address": 32807,
+  "player_bytes": 39,
+  "tap_bytes": 12387,
+  "status": "first arrangement; preview is approximate synthesis, not a recording from physical hardware"
+}

@@ -1,0 +1,21 @@
+{
+  "source": "https://bitmidi.com/uploads/78474.mid",
+  "source_page": "https://bitmidi.com/jump-mid",
+  "source_crop_ticks": [
+    0,
+    6144
+  ],
+  "source_tempo_microseconds": 451127,
+  "frames": 732,
+  "frame_rate": 50,
+  "AY_clock_Hz": 1773400,
+  "audio_seconds": 14.64,
+  "channel_A": "upper note of intro keyboard chords",
+  "channel_B": "lower note of intro keyboard chords",
+  "channel_C": "middle note of intro keyboard chords; no percussion",
+  "player_address": 32768,
+  "data_address": 32807,
+  "player_bytes": 39,
+  "tap_bytes": 10385,
+  "status": "first arrangement; preview is approximate synthesis, not a recording from physical hardware"
+}

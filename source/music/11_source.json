@@ -1,0 +1,21 @@
+{
+  "source": "https://www.mutopiaproject.org/ftp/BachJS/BWV565/ToccataFugue/ToccataFugue.mid",
+  "source_page": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1780",
+  "source_crop_ticks": [
+    0,
+    6144
+  ],
+  "source_tempo_microseconds": 1000000,
+  "frames": 810,
+  "frame_rate": 50,
+  "AY_clock_Hz": 1773400,
+  "audio_seconds": 16.2,
+  "channel_A": "highest organ voice",
+  "channel_B": "lowest organ voice",
+  "channel_C": "inner organ chord voices, arpeggiated when necessary; no drums",
+  "player_address": 32768,
+  "data_address": 32807,
+  "player_bytes": 39,
+  "tap_bytes": 11477,
+  "status": "first arrangement; preview is approximate synthesis, not a recording from physical hardware"
+}

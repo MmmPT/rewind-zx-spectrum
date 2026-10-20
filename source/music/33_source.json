@@ -1,0 +1,21 @@
+{
+  "source": "https://midifind.com/files/0-0-1-46637-20",
+  "source_page": "https://midifind.com/files/o/osbourne_ozzy/osbourne_ozzy_mr_crowley_3/1472-1-0-46637",
+  "source_crop_ticks": [
+    0,
+    17280
+  ],
+  "source_tempo_microseconds": 566037,
+  "frames": 1029,
+  "frame_rate": 50,
+  "AY_clock_Hz": 1773400,
+  "audio_seconds": 20.58,
+  "channel_A": "Opening organ arrangement carried by the source Guitar I and Guitar II parts: lead up one octave, quiet chord-root bass down one octave and sustained upper chord arpeggio.",
+  "channel_B": "low part, reduced volume",
+  "channel_C": "accompaniment, shared with short percussion",
+  "player_address": 32768,
+  "data_address": 32807,
+  "player_bytes": 39,
+  "tap_bytes": 14543,
+  "status": "first arrangement; preview is approximate synthesis, not a recording from physical hardware"
+}

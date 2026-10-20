@@ -1,0 +1,21 @@
+{
+  "source": "https://www.midi-karaoke.info/212dfafd.mid",
+  "source_page": "https://www.midi-karaoke.info/212dfafd.html",
+  "source_crop_ticks": [
+    11520,
+    20736
+  ],
+  "source_tempo_microseconds": 382165,
+  "frames": 927,
+  "frame_rate": 50,
+  "AY_clock_Hz": 1773400,
+  "audio_seconds": 18.54,
+  "channel_A": "Upper synth-brass melody, wood bass ostinato and short guitar accompaniment. Source sequence by Brian Havis.",
+  "channel_B": "low part, reduced volume",
+  "channel_C": "accompaniment, shared with short percussion",
+  "player_address": 32768,
+  "data_address": 32807,
+  "player_bytes": 39,
+  "tap_bytes": 13115,
+  "status": "first arrangement; preview is approximate synthesis, not a recording from physical hardware"
+}

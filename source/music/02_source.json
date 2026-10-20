@@ -1,0 +1,21 @@
+{
+  "source": "https://www.dongrays.com/midi/archive/tv-film/backfutr.mid",
+  "source_page": "https://www.dongrays.com/midi/archive/tv-film/",
+  "source_crop_ticks": [
+    5760,
+    18048
+  ],
+  "source_tempo_microseconds": 447093,
+  "frames": 725,
+  "frame_rate": 50,
+  "AY_clock_Hz": 1773400,
+  "audio_seconds": 14.5,
+  "channel_A": "trumpet main theme, track 1, octave doublings reduced",
+  "channel_B": "contrabass, track 4",
+  "channel_C": "trombone harmony arpeggios, track 2",
+  "player_address": 32768,
+  "data_address": 32807,
+  "player_bytes": 39,
+  "tap_bytes": 10287,
+  "status": "first arrangement; preview is approximate synthesis, not a recording from physical hardware"
+}

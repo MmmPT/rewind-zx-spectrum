@@ -1,0 +1,21 @@
+{
+  "source": "https://bitmidi.com/uploads/29640.mid",
+  "source_page": "https://bitmidi.com/raiders-mid",
+  "source_crop_ticks": [
+    5760,
+    18048
+  ],
+  "source_tempo_microseconds": 461538,
+  "frames": 748,
+  "frame_rate": 50,
+  "AY_clock_Hz": 1773400,
+  "audio_seconds": 14.96,
+  "channel_A": "main French horn theme, track 4",
+  "channel_B": "low strings, track 3",
+  "channel_C": "tuba harmony arpeggios, track 1",
+  "player_address": 32768,
+  "data_address": 32807,
+  "player_bytes": 39,
+  "tap_bytes": 10609,
+  "status": "first arrangement; preview is approximate synthesis, not a recording from physical hardware"
+}

@@ -1,0 +1,21 @@
+{
+  "source": "https://midifind.com/files/0-0-1-34754-20",
+  "source_page": "https://midifind.com/files/0-0-1-34754-20",
+  "source_crop_ticks": [
+    15360,
+    30720
+  ],
+  "source_tempo_microseconds": 444444,
+  "frames": 721,
+  "frame_rate": 50,
+  "AY_clock_Hz": 1773400,
+  "audio_seconds": 14.42,
+  "channel_A": "Signature high synth melody over the moving bassline, with quiet rhythm guitar and drums.",
+  "channel_B": "low part, reduced volume",
+  "channel_C": "accompaniment, shared with short percussion",
+  "player_address": 32768,
+  "data_address": 32807,
+  "player_bytes": 39,
+  "tap_bytes": 10231,
+  "status": "first arrangement; preview is approximate synthesis, not a recording from physical hardware"
+}

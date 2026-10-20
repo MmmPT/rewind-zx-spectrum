@@ -1,0 +1,21 @@
+{
+  "source": "https://www.oocities.org/dropper.geo/fraggle.mid",
+  "source_page": "https://www.oocities.org/dropper.geo/fraggle.mid",
+  "source_crop_ticks": [
+    960,
+    4800
+  ],
+  "source_tempo_microseconds": 600000,
+  "frames": 970,
+  "frame_rate": 50,
+  "AY_clock_Hz": 1773400,
+  "audio_seconds": 19.4,
+  "channel_A": "Intro riff followed by vocal melody at MIDI tick 2880. Accompaniment contains inner chord voices only; no doubled vocal or free-running arpeggio.",
+  "channel_B": "low part, reduced volume",
+  "channel_C": "accompaniment, shared with short percussion",
+  "player_address": 32768,
+  "data_address": 32807,
+  "player_bytes": 39,
+  "tap_bytes": 13717,
+  "status": "revised arrangement v2; preview is approximate synthesis, not a recording from physical hardware"
+}

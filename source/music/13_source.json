@@ -1,0 +1,21 @@
+{
+  "source": "https://www.muskehounds.com/Dogtania.mid",
+  "source_page": "https://www.muskehounds.com/theme.php",
+  "source_crop_ticks": [
+    1920,
+    5760
+  ],
+  "source_tempo_microseconds": 500000,
+  "frames": 810,
+  "frame_rate": 50,
+  "AY_clock_Hz": 1773400,
+  "audio_seconds": 16.2,
+  "channel_A": "main theme, track 3, octave jumps normalised into upper register",
+  "channel_B": "electric bass, track 4, reduced volume",
+  "channel_C": "folk guitar, track 14, shared with short percussion",
+  "player_address": 32768,
+  "data_address": 32807,
+  "player_bytes": 39,
+  "tap_bytes": 11477,
+  "status": "first arrangement; preview is approximate synthesis, not a recording from physical hardware"
+}

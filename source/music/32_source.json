@@ -1,0 +1,21 @@
+{
+  "source": "https://songparts.com/songs/manowar/fighting-the-world/X43l5Uo5dz4iUlQo/practice",
+  "source_page": "https://songparts.com/songs/manowar/fighting-the-world",
+  "source_crop_ticks": [
+    42240,
+    57600
+  ],
+  "source_tempo_microseconds": 451127,
+  "frames": 732,
+  "frame_rate": 50,
+  "AY_clock_Hz": 1773400,
+  "audio_seconds": 14.64,
+  "channel_A": "Main repeated-title vocal refrain, bars 23-30 (labelled Pre Chorus in the source tabs), replacing bars 31-38. Vocal line kept in its original register, with quiet bass and rhythm guitar.",
+  "channel_B": "low part, reduced volume",
+  "channel_C": "accompaniment, shared with short percussion",
+  "player_address": 32768,
+  "data_address": 32807,
+  "player_bytes": 39,
+  "tap_bytes": 10385,
+  "status": "first arrangement; preview is approximate synthesis, not a recording from physical hardware"
+}

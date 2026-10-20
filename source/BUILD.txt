@@ -1,0 +1,35 @@
+REBUILD — self contained project
+Python 3.10+, pyz80 1.3.0, z80, Pillow, numpy, scipy and SkoolKit 10.1.
+ffmpeg must be installed for audio/video previews.
+
+python3 -m pip install pyz80==1.3.0 skoolkit==10.1 z80 Pillow numpy scipy mido
+python3 build.py
+python3 verify.py
+python3 verify_rom.py
+python3 preview.py
+
+build.py reads songs_manifest.json (the fifty quiz songs), extra_answers.json,
+and the approved music/00.bin … music/49.bin.
+No external source folders or network downloads are needed for the game build.
+
+MEMORY
+Bank 5: Spectrum bitmap/attributes at 0x4000; packed-input scratch at 0x6000.
+Bank 2: code, font, 250 answer titles and state from 0x8000.
+Stack 0xBC00; IM2 handler 0xBDBD; vector table 0xBE00–0xBF00.
+Banks 0,1,3,4: packed music, the fifty approved quiz streams.
+Bank 7: one selected delta stream unpacked at 0xC000 (under 4 KB).
+
+CODEC
+Approved 14-register frames remain unchanged at 50 Hz, 1.7734 MHz AY clock.
+First stage: original 14-bit delta masks and repeat runs.
+Second stage: LZ with literals and little-endian 16-bit back offsets.
+Literal token 0..127 means token+1 following literal bytes.
+Reference token 128..255 means (token & 127)+3 copied bytes, followed by offset.
+The maximum reference length is 130 and overlapping copies are supported.
+The selected compressed stream is copied into fixed scratch, then decompressed
+into bank 7 once. The original real-time frame decoder then plays it.
+
+SONG TABLE
+50 entries: fifty quiz songs.
+Each entry: bank+16 byte; source address word; frame count word; packed length word.
+The menu does not start a music stream.

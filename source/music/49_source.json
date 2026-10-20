@@ -1,0 +1,21 @@
+{
+  "source": "https://bitmidi.com/uploads/74457.mid",
+  "source_page": "https://bitmidi.com/uploads/74457.mid",
+  "source_crop_ticks": [
+    49680,
+    64560
+  ],
+  "source_tempo_microseconds": 508465,
+  "frames": 798,
+  "frame_rate": 50,
+  "AY_clock_Hz": 1773400,
+  "audio_seconds": 15.96,
+  "channel_A": "First repeated-title sung chorus, keeping the original lead register; bass up one octave with quieter keyboard harmony. Stops before the next verse.",
+  "channel_B": "low part, reduced volume",
+  "channel_C": "accompaniment, shared with short percussion",
+  "player_address": 32768,
+  "data_address": 32807,
+  "player_bytes": 39,
+  "tap_bytes": 11309,
+  "status": "first arrangement; preview is approximate synthesis, not a recording from physical hardware"
+}

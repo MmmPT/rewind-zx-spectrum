@@ -1,0 +1,21 @@
+{
+  "source": "https://www.yuma-city.de/wp-content/uploads/2022/03/midis_selfdestructboy.zip",
+  "source_page": "https://www.yuma-city.de/video-audio/audio/",
+  "source_crop_ticks": [
+    1920,
+    6720
+  ],
+  "source_tempo_microseconds": 389610,
+  "frames": 789,
+  "frame_rate": 50,
+  "AY_clock_Hz": 1773400,
+  "audio_seconds": 15.78,
+  "channel_A": "opening vocal melody, MIDI track 7",
+  "channel_B": "bass guitar, track 1, reduced volume 6-8",
+  "channel_C": "acoustic guitar arpeggios, track 9, upper voices, volume 9, shared with short percussion",
+  "player_address": 32768,
+  "data_address": 32807,
+  "player_bytes": 39,
+  "tap_bytes": 11183,
+  "status": "first arrangement; preview is approximate synthesis, not a recording from physical hardware"
+}

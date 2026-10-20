@@ -1,0 +1,302 @@
+[
+  {
+    "id": 0,
+    "title": "Ghostbusters",
+    "category": "MOVIES",
+    "approved_source": "ghostbusters_v2"
+  },
+  {
+    "id": 1,
+    "title": "Axel F",
+    "category": "MOVIES",
+    "approved_source": "axel_f_v1"
+  },
+  {
+    "id": 2,
+    "title": "Back to the Future",
+    "category": "MOVIES",
+    "approved_source": "back_to_future_v1"
+  },
+  {
+    "id": 3,
+    "title": "Raiders March",
+    "category": "MOVIES",
+    "approved_source": "raiders_v1"
+  },
+  {
+    "id": 4,
+    "title": "Top Gun Anthem",
+    "category": "MOVIES",
+    "approved_source": "top_gun_v1"
+  },
+  {
+    "id": 5,
+    "title": "Take on Me",
+    "category": "POP & ROCK",
+    "approved_source": "take_on_me_v1"
+  },
+  {
+    "id": 6,
+    "title": "The Final Countdown",
+    "category": "POP & ROCK",
+    "approved_source": "final_countdown_v1"
+  },
+  {
+    "id": 7,
+    "title": "Jump",
+    "category": "POP & ROCK",
+    "approved_source": "jump_v1"
+  },
+  {
+    "id": 8,
+    "title": "Tainted Love",
+    "category": "POP & ROCK",
+    "approved_source": "tainted_love_v1"
+  },
+  {
+    "id": 9,
+    "title": "Tonight She Comes",
+    "category": "POP & ROCK",
+    "approved_source": "tonight_she_comes_v2"
+  },
+  {
+    "id": 10,
+    "title": "Saber Rider",
+    "category": "CARTOONS",
+    "approved_source": "saber_rider_v1"
+  },
+  {
+    "id": 11,
+    "title": "Once Upon a Time... Man",
+    "category": "CARTOONS",
+    "approved_source": "once_upon_man_v1"
+  },
+  {
+    "id": 12,
+    "title": "The Mysterious Cities of Gold",
+    "category": "CARTOONS",
+    "approved_source": "cities_gold_v1"
+  },
+  {
+    "id": 13,
+    "title": "Dogtanian",
+    "category": "CARTOONS",
+    "approved_source": "dogtanian_v1"
+  },
+  {
+    "id": 14,
+    "title": "Teenage Mutant Ninja Turtles",
+    "category": "CARTOONS",
+    "approved_source": "tmnt_v1"
+  },
+  {
+    "id": 15,
+    "title": "Knight Rider",
+    "category": "TV SERIES",
+    "approved_source": "knight_rider_v1"
+  },
+  {
+    "id": 16,
+    "title": "The A-Team",
+    "category": "TV SERIES",
+    "approved_source": "a_team_v1"
+  },
+  {
+    "id": 17,
+    "title": "MacGyver",
+    "category": "TV SERIES",
+    "approved_source": "macgyver_v1"
+  },
+  {
+    "id": 18,
+    "title": "Fraggle Rock",
+    "category": "TV SERIES",
+    "approved_source": "fraggle_rock_v2"
+  },
+  {
+    "id": 19,
+    "title": "Space: 1999",
+    "category": "TV SERIES",
+    "approved_source": "space_1999_v3"
+  },
+  {
+    "id": 20,
+    "title": "Oxygene IV",
+    "category": "ELECTRONIC",
+    "approved_source": "electronic_restored/oxygene4_v1"
+  },
+  {
+    "id": 21,
+    "title": "Equinoxe V",
+    "category": "ELECTRONIC",
+    "approved_source": "electronic_restored/equinoxe5_v1"
+  },
+  {
+    "id": 22,
+    "title": "Pulstar",
+    "category": "ELECTRONIC",
+    "approved_source": "electronic_restored/pulstar_v1"
+  },
+  {
+    "id": 23,
+    "title": "Chariots of Fire",
+    "category": "ELECTRONIC",
+    "approved_source": "electronic_restored/chariots_fire_v1"
+  },
+  {
+    "id": 24,
+    "title": "The Model",
+    "category": "ELECTRONIC",
+    "approved_source": "electronic_restored/the_model_v1"
+  },
+  {
+    "id": 25,
+    "title": "Just Like Heaven",
+    "category": "GOTHIC",
+    "approved_source": "replacement_project/output/just_heaven_v1"
+  },
+  {
+    "id": 26,
+    "title": "Temple of Love",
+    "category": "GOTHIC",
+    "approved_source": "restored_project/output/temple_love_v1"
+  },
+  {
+    "id": 27,
+    "title": "Love Will Tear Us Apart",
+    "category": "GOTHIC",
+    "approved_source": "restored_project/output/love_tear_v1"
+  },
+  {
+    "id": 28,
+    "title": "She Sells Sanctuary",
+    "category": "GOTHIC",
+    "approved_source": "restored_project/output/sanctuary_v1"
+  },
+  {
+    "id": 29,
+    "title": "The Killing Moon",
+    "category": "GOTHIC",
+    "approved_source": "replacement_project/output/killing_moon_chorus_v2"
+  },
+  {
+    "id": 30,
+    "title": "The Trooper",
+    "category": "METAL",
+    "approved_source": "metal_project/output/trooper_v1"
+  },
+  {
+    "id": 31,
+    "title": "Master of Puppets",
+    "category": "METAL",
+    "approved_source": "metal_project/output/puppets_v1"
+  },
+  {
+    "id": 32,
+    "title": "Fighting the World",
+    "category": "METAL",
+    "approved_source": "metal_project/output/fighting_world_refrain_v2"
+  },
+  {
+    "id": 33,
+    "title": "Mr. Crowley",
+    "category": "METAL",
+    "approved_source": "metal_project/output/crowley_v1"
+  },
+  {
+    "id": 34,
+    "title": "I Want Out",
+    "category": "METAL",
+    "approved_source": "metal_project/output/want_out_v1"
+  },
+  {
+    "id": 35,
+    "title": "Super Mario Bros.",
+    "category": "VIDEO GAMES",
+    "approved_source": "games_project/output/mario_v1"
+  },
+  {
+    "id": 36,
+    "title": "Tetris",
+    "category": "VIDEO GAMES",
+    "approved_source": "games_project/output/tetris_v1"
+  },
+  {
+    "id": 37,
+    "title": "Out Run",
+    "category": "VIDEO GAMES",
+    "approved_source": "games_project/output/outrun_v1"
+  },
+  {
+    "id": 38,
+    "title": "The Legend of Zelda",
+    "category": "VIDEO GAMES",
+    "approved_source": "games_project/output/zelda_v1"
+  },
+  {
+    "id": 39,
+    "title": "Bubble Bobble",
+    "category": "VIDEO GAMES",
+    "approved_source": "games_project/output/bubble_v1"
+  },
+  {
+    "id": 40,
+    "title": "Big in Japan",
+    "category": "SYNTH-POP",
+    "approved_source": "synthpop_project/output/big_japan_riff_v2"
+  },
+  {
+    "id": 41,
+    "title": "Just Can't Get Enough",
+    "category": "SYNTH-POP",
+    "approved_source": "synthpop_project/output/just_enough_v1"
+  },
+  {
+    "id": 42,
+    "title": "Don't You Want Me",
+    "category": "SYNTH-POP",
+    "approved_source": "synthpop_project/output/want_me_v1"
+  },
+  {
+    "id": 43,
+    "title": "Sometimes",
+    "category": "SYNTH-POP",
+    "approved_source": "synthpop_project/output/sometimes_v1"
+  },
+  {
+    "id": 44,
+    "title": "West End Girls",
+    "category": "SYNTH-POP",
+    "approved_source": "synthpop_project/output/west_end_v1"
+  },
+  {
+    "id": 45,
+    "title": "Like a Virgin",
+    "category": "DANCE",
+    "approved_source": "dance_project/output/virgin_v1"
+  },
+  {
+    "id": 46,
+    "title": "You Spin Me Round",
+    "category": "DANCE",
+    "approved_source": "dance_project/output/spin_v1"
+  },
+  {
+    "id": 47,
+    "title": "Never Gonna Give You Up",
+    "category": "DANCE",
+    "approved_source": "dance_project/output/rick_v1"
+  },
+  {
+    "id": 48,
+    "title": "Walk Like an Egyptian",
+    "category": "DANCE",
+    "approved_source": "dance_project/output/egyptian_v1"
+  },
+  {
+    "id": 49,
+    "title": "I Should Be So Lucky",
+    "category": "DANCE",
+    "approved_source": "dance_project/output/lucky_v1"
+  }
+]

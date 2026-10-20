@@ -1,0 +1,21 @@
+{
+  "source": "https://www.masterpiano.com/sheets/les-mysterieuses-cites-d-or-generique-r-boisard",
+  "source_page": "https://www.masterpiano.com/sheets/les-mysterieuses-cites-d-or-generique-r-boisard",
+  "source_crop_ticks": [
+    20160,
+    35520
+  ],
+  "source_tempo_microseconds": 600000,
+  "frames": 970,
+  "frame_rate": 50,
+  "AY_clock_Hz": 1773400,
+  "audio_seconds": 19.4,
+  "channel_A": "chorus melody, public MusicXML score by R. Boisard, G minor transposition",
+  "channel_B": "new simple bass arrangement",
+  "channel_C": "new simple arpeggiated chord arrangement",
+  "player_address": 32768,
+  "data_address": 32807,
+  "player_bytes": 39,
+  "tap_bytes": 13717,
+  "status": "first arrangement; preview is approximate synthesis, not a recording from physical hardware"
+}

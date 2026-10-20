@@ -1,0 +1,21 @@
+{
+  "source": "https://bitmidi.com/uploads/71061.mid",
+  "source_page": "https://bitmidi.com/uploads/71061.mid",
+  "source_crop_ticks": [
+    240,
+    6000
+  ],
+  "source_tempo_microseconds": 410958,
+  "frames": 996,
+  "frame_rate": 50,
+  "AY_clock_Hz": 1773400,
+  "audio_seconds": 19.92,
+  "channel_A": "Synth lead down one octave; bass raised only below C2; strings.",
+  "channel_B": "low part, reduced volume",
+  "channel_C": "accompaniment, shared with short percussion",
+  "player_address": 32768,
+  "data_address": 32807,
+  "player_bytes": 39,
+  "tap_bytes": 14081,
+  "status": "first arrangement; preview is approximate synthesis, not a recording from physical hardware"
+}

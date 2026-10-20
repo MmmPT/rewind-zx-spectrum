@@ -1,0 +1,21 @@
+{
+  "source": "https://midifind.com/files/0-0-1-21810-20",
+  "source_page": "https://midifind.com/files/c/cure_the/cure_the_just_like_heaven_2/781-1-0-21810",
+  "source_crop_ticks": [
+    32640,
+    48000
+  ],
+  "source_tempo_microseconds": 394736,
+  "frames": 642,
+  "frame_rate": 50,
+  "AY_clock_Hz": 1773400,
+  "audio_seconds": 12.84,
+  "channel_A": "Lead-guitar hook, removing its repeated E pedal even where the melody falls below it; melody up one octave, bass up one octave, string counterline down one octave.",
+  "channel_B": "low part, reduced volume",
+  "channel_C": "accompaniment, shared with short percussion",
+  "player_address": 32768,
+  "data_address": 32807,
+  "player_bytes": 39,
+  "tap_bytes": 9125,
+  "status": "first arrangement; preview is approximate synthesis, not a recording from physical hardware"
+}

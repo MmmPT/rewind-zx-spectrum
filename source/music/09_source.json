@@ -1,0 +1,21 @@
+{
+  "source": "https://www.midiworld.com/download/2699",
+  "source_page": "https://www.midiworld.com/files/1009/",
+  "source_crop_ticks": [
+    3840,
+    11520
+  ],
+  "source_tempo_microseconds": 413793,
+  "frames": 672,
+  "frame_rate": 50,
+  "AY_clock_Hz": 1773400,
+  "audio_seconds": 13.44,
+  "channel_A": "intro hook, MIDI track 4",
+  "channel_B": "bass, track 8, +12 semitones, reduced volume 6-8",
+  "channel_C": "rhythm guitar, track 1, upper chord note raised one octave, increased volume 11; short percussion unchanged",
+  "player_address": 32768,
+  "data_address": 32807,
+  "player_bytes": 39,
+  "tap_bytes": 9545,
+  "status": "second mix, accompaniment raised from AY level 7 to 11; preview is approximate synthesis, not a recording from physical hardware"
+}

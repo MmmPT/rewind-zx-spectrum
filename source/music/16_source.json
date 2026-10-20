@@ -1,0 +1,21 @@
+{
+  "source": "https://bitmidi.com/uploads/3164.mid",
+  "source_page": "https://bitmidi.com/uploads/3164.mid",
+  "source_crop_ticks": [
+    473,
+    4313
+  ],
+  "source_tempo_microseconds": 454545,
+  "frames": 737,
+  "frame_rate": 50,
+  "AY_clock_Hz": 1773400,
+  "audio_seconds": 14.74,
+  "channel_A": "Trumpet lead with octave doubling normalised; low brass; strings. Source MIDI by Steven White.",
+  "channel_B": "low part, reduced volume",
+  "channel_C": "accompaniment, shared with short percussion",
+  "player_address": 32768,
+  "data_address": 32807,
+  "player_bytes": 39,
+  "tap_bytes": 10455,
+  "status": "first arrangement; preview is approximate synthesis, not a recording from physical hardware"
+}

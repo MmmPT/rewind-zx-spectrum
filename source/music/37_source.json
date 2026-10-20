@@ -1,0 +1,21 @@
+{
+  "source": "https://www.vgmusic.com/music/console/sega/genesis/Out_Run%2C_Magical_Shower.mid",
+  "source_page": "https://www.vgmusic.com/music/console/sega/genesis/Out_Run%2C_Magical_Shower.mid",
+  "source_crop_ticks": [
+    88320,
+    118320
+  ],
+  "source_tempo_microseconds": 239043,
+  "frames": 757,
+  "frame_rate": 50,
+  "AY_clock_Hz": 1773400,
+  "audio_seconds": 15.14,
+  "channel_A": "First main lead phrase after the introduction, keeping its high solo line, monophonic bass roots and quieter syncopated chord support.",
+  "channel_B": "low part, reduced volume",
+  "channel_C": "accompaniment, shared with short percussion",
+  "player_address": 32768,
+  "data_address": 32807,
+  "player_bytes": 39,
+  "tap_bytes": 10735,
+  "status": "first arrangement; preview is approximate synthesis, not a recording from physical hardware"
+}

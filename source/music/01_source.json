@@ -1,0 +1,21 @@
+{
+  "source": "https://bitmidi.com/uploads/8686.mid",
+  "source_page": "https://bitmidi.com/axel-f-1-mid",
+  "source_crop_ticks": [
+    27648,
+    39936
+  ],
+  "source_tempo_microseconds": 508470,
+  "frames": 824,
+  "frame_rate": 50,
+  "AY_clock_Hz": 1773400,
+  "audio_seconds": 16.48,
+  "channel_A": "lead, MIDI track 7",
+  "channel_B": "synth bass, MIDI track 1, +12 semitones",
+  "channel_C": "short AY noise percussion, MIDI track 8",
+  "player_address": 32768,
+  "data_address": 32807,
+  "player_bytes": 39,
+  "tap_bytes": 11673,
+  "status": "first arrangement; preview is approximate synthesis, not a recording from physical hardware"
+}

@@ -1,0 +1,21 @@
+{
+  "source": "https://bitmidi.com/uploads/43958.mid",
+  "source_page": "https://bitmidi.com/uploads/43958.mid",
+  "source_crop_ticks": [
+    17664,
+    23808
+  ],
+  "source_tempo_microseconds": 555555,
+  "frames": 899,
+  "frame_rate": 50,
+  "AY_clock_Hz": 1773400,
+  "audio_seconds": 17.98,
+  "channel_A": "First eight bars of the sung chorus from the public Hooktheory chart, at 108 BPM, placed over matching C-G-Ab-Bb-C-G-Bb-F source harmony. Vocal lifted one octave; bass lowered one octave. Original duplicate horn melody omitted.",
+  "channel_B": "low part, reduced volume",
+  "channel_C": "accompaniment, shared with short percussion",
+  "player_address": 32768,
+  "data_address": 32807,
+  "player_bytes": 39,
+  "tap_bytes": 12723,
+  "status": "first arrangement; preview is approximate synthesis, not a recording from physical hardware"
+}

@@ -1,0 +1,21 @@
+{
+  "source": "https://bitmidi.com/uploads/66741.mid",
+  "source_page": "https://bitmidi.com/kraftwerk-the-model-mid",
+  "source_crop_ticks": [
+    1920,
+    9600
+  ],
+  "source_tempo_microseconds": 487804,
+  "frames": 790,
+  "frame_rate": 50,
+  "AY_clock_Hz": 1773400,
+  "audio_seconds": 15.8,
+  "channel_A": "Recognisable opening synth riff raised one octave; bass lowered one octave; chord accompaniment and remapped percussion.",
+  "channel_B": "low part, reduced volume",
+  "channel_C": "accompaniment, shared with short percussion",
+  "player_address": 32768,
+  "data_address": 32807,
+  "player_bytes": 39,
+  "tap_bytes": 11197,
+  "status": "first arrangement; preview is approximate synthesis, not a recording from physical hardware"
+}

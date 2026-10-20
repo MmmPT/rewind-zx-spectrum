@@ -1,0 +1,21 @@
+{
+  "source": "https://prociweb.hu/sites/mobil/ringtones/mid/Teenage%20Turtles.mid",
+  "source_page": "https://prociweb.hu/sites/mobil/ringtones/mid/index.html",
+  "source_crop_ticks": [
+    12000,
+    35040
+  ],
+  "source_tempo_microseconds": 315789,
+  "frames": 768,
+  "frame_rate": 50,
+  "AY_clock_Hz": 1773400,
+  "audio_seconds": 15.36,
+  "channel_A": "main title vocal tune, track 1, excessive octave doublings reduced",
+  "channel_B": "bass, track 3, reduced volume",
+  "channel_C": "strings, track 4, two octaves lower, shared with percussion",
+  "player_address": 32768,
+  "data_address": 32807,
+  "player_bytes": 39,
+  "tap_bytes": 10889,
+  "status": "first arrangement; preview is approximate synthesis, not a recording from physical hardware"
+}

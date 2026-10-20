@@ -1,0 +1,21 @@
+{
+  "source": "https://www.vgmusic.com/music/console/nintendo/nes/z1overw.mid",
+  "source_page": "https://www.vgmusic.com/music/console/nintendo/nes/z1overw.mid",
+  "source_crop_ticks": [
+    6144,
+    18432
+  ],
+  "source_tempo_microseconds": 405405,
+  "frames": 659,
+  "frame_rate": 50,
+  "AY_clock_Hz": 1773400,
+  "audio_seconds": 13.18,
+  "channel_A": "Eight bars of the main overworld melody, starting after the repeated-note introduction; quiet harmony and short percussion.",
+  "channel_B": "low part, reduced volume",
+  "channel_C": "accompaniment, shared with short percussion",
+  "player_address": 32768,
+  "data_address": 32807,
+  "player_bytes": 39,
+  "tap_bytes": 9363,
+  "status": "first arrangement; preview is approximate synthesis, not a recording from physical hardware"
+}

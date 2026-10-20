@@ -1,0 +1,21 @@
+{
+  "source": "https://www.dongrays.com/midi/archive/tv-film/spac1999.mid",
+  "source_page": "https://www.dongrays.com/midi/archive/tv-film/spac1999.mid",
+  "source_crop_ticks": [
+    4320,
+    8880
+  ],
+  "source_tempo_microseconds": 524017,
+  "frames": 956,
+  "frame_rate": 50,
+  "AY_clock_Hz": 1773400,
+  "audio_seconds": 19.12,
+  "channel_A": "Season one rhythmic section only, opening fanfare removed. Upper-register lead, bass, lower brass and tuned timpani.",
+  "channel_B": "low part, reduced volume",
+  "channel_C": "accompaniment, shared with short percussion",
+  "player_address": 32768,
+  "data_address": 32807,
+  "player_bytes": 39,
+  "tap_bytes": 13521,
+  "status": "revised arrangement v3; preview is approximate synthesis, not a recording from physical hardware"
+}

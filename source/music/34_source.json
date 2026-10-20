@@ -1,0 +1,21 @@
+{
+  "source": "https://midifind.com/files/0-0-1-30868-20",
+  "source_page": "https://midifind.com/files/h/helloween/helloween_i_want_out/1064-1-0-30868",
+  "source_crop_ticks": [
+    1680,
+    24720
+  ],
+  "source_tempo_microseconds": 322580,
+  "frames": 784,
+  "frame_rate": 50,
+  "AY_clock_Hz": 1773400,
+  "audio_seconds": 15.68,
+  "channel_A": "Opening D-minor guitar melody with its upper harmony on channel C; bass up one octave at reduced volume, percussion shares the harmony channel.",
+  "channel_B": "low part, reduced volume",
+  "channel_C": "accompaniment, shared with short percussion",
+  "player_address": 32768,
+  "data_address": 32807,
+  "player_bytes": 39,
+  "tap_bytes": 11113,
+  "status": "first arrangement; preview is approximate synthesis, not a recording from physical hardware"
+}

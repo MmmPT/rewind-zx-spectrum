@@ -1,0 +1,21 @@
+{
+  "source": "https://bitmidi.com/uploads/73570.mid",
+  "source_page": "https://bitmidi.com/metallica-master-of-puppets-mid",
+  "source_crop_ticks": [
+    1440,
+    9120
+  ],
+  "source_tempo_microseconds": 272727,
+  "frames": 883,
+  "frame_rate": 50,
+  "AY_clock_Hz": 1773400,
+  "audio_seconds": 17.66,
+  "channel_A": "Main fast chromatic guitar riff, reducing close chord attacks to their root within each 50-Hz frame and raising one octave; bass up one octave, quieter guitar support.",
+  "channel_B": "low part, reduced volume",
+  "channel_C": "accompaniment, shared with short percussion",
+  "player_address": 32768,
+  "data_address": 32807,
+  "player_bytes": 39,
+  "tap_bytes": 12499,
+  "status": "first arrangement; preview is approximate synthesis, not a recording from physical hardware"
+}

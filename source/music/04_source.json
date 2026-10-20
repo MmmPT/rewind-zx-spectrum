@@ -1,0 +1,21 @@
+{
+  "source": "https://bitmidi.com/uploads/104919.mid",
+  "source_page": "https://bitmidi.com/topgun-mid",
+  "source_crop_ticks": [
+    5376,
+    11520
+  ],
+  "source_tempo_microseconds": 530973,
+  "frames": 860,
+  "frame_rate": 50,
+  "AY_clock_Hz": 1773400,
+  "audio_seconds": 17.2,
+  "channel_A": "guitar theme, track 6",
+  "channel_B": "bass, track 7, +12 semitones",
+  "channel_C": "brass pad harmony and soft percussion",
+  "player_address": 32768,
+  "data_address": 32807,
+  "player_bytes": 39,
+  "tap_bytes": 12177,
+  "status": "first arrangement; preview is approximate synthesis, not a recording from physical hardware"
+}

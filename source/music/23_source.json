@@ -1,0 +1,21 @@
+{
+  "source": "https://bitmidi.com/uploads/75817.mid",
+  "source_page": "https://bitmidi.com/movie_themes_-_chariots_of_fire_-_by_vangelis-mid",
+  "source_crop_ticks": [
+    4847,
+    6384
+  ],
+  "source_tempo_microseconds": 500000,
+  "frames": 696,
+  "frame_rate": 50,
+  "AY_clock_Hz": 1773400,
+  "audio_seconds": 13.92,
+  "channel_A": "Piano melody extracted above C-sharp 5 to remove rolled inner harmony; restrained pulse and string harmony.",
+  "channel_B": "low part, reduced volume",
+  "channel_C": "accompaniment, shared with short percussion",
+  "player_address": 32768,
+  "data_address": 32807,
+  "player_bytes": 39,
+  "tap_bytes": 9881,
+  "status": "first arrangement; preview is approximate synthesis, not a recording from physical hardware"
+}

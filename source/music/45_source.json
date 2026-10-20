@@ -1,0 +1,21 @@
+{
+  "source": "https://bitmidi.com/uploads/71274.mid",
+  "source_page": "https://bitmidi.com/uploads/71274.mid",
+  "source_crop_ticks": [
+    8736,
+    11760
+  ],
+  "source_tempo_microseconds": 500000,
+  "frames": 798,
+  "frame_rate": 50,
+  "AY_clock_Hz": 1773400,
+  "audio_seconds": 15.96,
+  "channel_A": "First sung chorus, starting on the title phrase. Original vocal register, quieter octave-raised bass and soft keyboard harmony.",
+  "channel_B": "low part, reduced volume",
+  "channel_C": "accompaniment, shared with short percussion",
+  "player_address": 32768,
+  "data_address": 32807,
+  "player_bytes": 39,
+  "tap_bytes": 11309,
+  "status": "first arrangement; preview is approximate synthesis, not a recording from physical hardware"
+}

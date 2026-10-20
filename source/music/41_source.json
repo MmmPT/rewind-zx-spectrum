@@ -1,0 +1,21 @@
+{
+  "source": "https://bitmidi.com/uploads/64027.mid",
+  "source_page": "https://bitmidi.com/uploads/64027.mid",
+  "source_crop_ticks": [
+    9216,
+    21504
+  ],
+  "source_tempo_microseconds": 461530,
+  "frames": 748,
+  "frame_rate": 50,
+  "AY_clock_Hz": 1773400,
+  "audio_seconds": 14.96,
+  "channel_A": "Eight-bar signature synthesizer riff, quieter bass up one octave and short percussion on C.",
+  "channel_B": "low part, reduced volume",
+  "channel_C": "accompaniment, shared with short percussion",
+  "player_address": 32768,
+  "data_address": 32807,
+  "player_bytes": 39,
+  "tap_bytes": 10609,
+  "status": "first arrangement; preview is approximate synthesis, not a recording from physical hardware"
+}

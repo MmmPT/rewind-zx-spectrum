@@ -1,0 +1,21 @@
+{
+  "source": "https://bitmidi.com/uploads/102453.mid",
+  "source_page": "https://bitmidi.com/the-final-countdown-mid",
+  "source_crop_ticks": [
+    10752,
+    23040
+  ],
+  "source_tempo_microseconds": 508470,
+  "frames": 824,
+  "frame_rate": 50,
+  "AY_clock_Hz": 1773400,
+  "audio_seconds": 16.48,
+  "channel_A": "synth brass lead, MIDI track 2, volume 13-15",
+  "channel_B": "intro bass, MIDI track 6, volume 6-8",
+  "channel_C": "string chords, MIDI track 5, arpeggiated -12 semitones, volume 6",
+  "player_address": 32768,
+  "data_address": 32807,
+  "player_bytes": 39,
+  "tap_bytes": 11673,
+  "status": "first arrangement; preview is approximate synthesis, not a recording from physical hardware"
+}

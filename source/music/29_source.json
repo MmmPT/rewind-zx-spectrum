@@ -1,0 +1,21 @@
+{
+  "source": "https://www.anos80.com.br/echo/Killing_Moon.zip",
+  "source_page": "https://www.hooktheory.com/theorytab/view/echo-and-the-bunnymen/the-killing-moon#chorus",
+  "source_crop_ticks": [
+    12000,
+    16800
+  ],
+  "source_tempo_microseconds": 480000,
+  "frames": 970,
+  "frame_rate": 50,
+  "AY_clock_Hz": 1773400,
+  "audio_seconds": 19.4,
+  "channel_A": "Full 10-bar chorus vocal melody from the public Hooktheory transcription, in G4-D5; original MIDI backing raised two semitones and set to 125 BPM; quieter bass and harmony.",
+  "channel_B": "low part, reduced volume",
+  "channel_C": "accompaniment, shared with short percussion",
+  "player_address": 32768,
+  "data_address": 32807,
+  "player_bytes": 39,
+  "tap_bytes": 13717,
+  "status": "first arrangement; preview is approximate synthesis, not a recording from physical hardware"
+}

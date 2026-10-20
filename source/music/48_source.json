@@ -1,0 +1,21 @@
+{
+  "source": "https://midifind.com/files/0-0-1-65332-20",
+  "source_page": "https://www.hooktheory.com/theorytab/view/the-bangles/walk-like-an-egyptian#pre-chorus-and-chorus",
+  "source_crop_ticks": [
+    57600,
+    80640
+  ],
+  "source_tempo_microseconds": 289855,
+  "frames": 706,
+  "frame_rate": 50,
+  "AY_clock_Hz": 1773400,
+  "audio_seconds": 14.12,
+  "channel_A": "Pre-chorus and sung title refrain, public Hooktheory vocal transcription in E and B mixolydian, lifted one octave. Original source accompaniment aligned at tick 57600; quiet octave-raised bass, guitar harmony and short percussion.",
+  "channel_B": "low part, reduced volume",
+  "channel_C": "accompaniment, shared with short percussion",
+  "player_address": 32768,
+  "data_address": 32807,
+  "player_bytes": 39,
+  "tap_bytes": 10021,
+  "status": "first arrangement; preview is approximate synthesis, not a recording from physical hardware"
+}
