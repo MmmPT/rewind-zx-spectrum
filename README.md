@@ -6,6 +6,10 @@ Developed with the assistance of **ChatGPT / OpenAI Codex**: game code, music co
 
 ![REWIND loading screen](images/loading.png)
 
+## Game page
+
+[Visit the REWIND game page](https://mmmpt.github.io/rewind-zx-spectrum/)
+
 ## Download and play
 
 - [Download the TAP](downloads/Rewind_Quiz_128K.tap?raw=true)
