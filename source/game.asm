@@ -1265,7 +1265,7 @@ draw_timer:
  ld de,0x0318
  call print_number
  ld hl,msg_timer_bar
- ld de,0x0501
+ ld de,0x0502
  call print_at
  ld de,0x0508
  ld b,20
@@ -1288,8 +1288,8 @@ timer_empty_cell:
  jr nc,timer_colour_ready
  ld a,0x42
 timer_colour_ready:
- ld de,0x0501
- ld b,27
+ ld de,0x0502
+ ld b,26
  call color_row
  ld de,0x0302
  ld b,28
