@@ -30,12 +30,13 @@ def render_audio(frames,path):
   w.setnchannels(1);w.setsampwidth(2);w.setframerate(44100);w.writeframes((x*32767).astype('<i2').tobytes())
 
 def main():
- h=Harness();h.boot(intro=True);last=None;imagebytes=None;audio=[]
+ h=Harness();h.boot();h.action(49);h.m.pc=S['main_loop'];h.m.iff1=True;h.m.iff2=True
+ last=None;imagebytes=None;audio=[]
  movie=P/'preview_silent.mp4'
  ff=subprocess.Popen(['ffmpeg','-nostdin','-y','-v','error','-f','rawvideo','-pix_fmt','rgb24','-s','768x576','-r','25','-i','-','-an','-c:v','libx264','-preset','fast','-crf','18','-pix_fmt','yuv420p',str(movie)],stdin=subprocess.PIPE)
- for f in range(1500):
-  key={25:32,75:49,325:32}.get(f)
-  if f==225:
+ for f in range(1000):
+  key={250:32}.get(f)
+  if f in (200,850):
    options=list(h.m.memory[S['options']:S['options']+4]);key=49+options.index(h.get('current_song'))
   h.keys=set() if key is None else {key}
   h.m.ticks_to_stop=4;h.m.run();assert h.m.halted

@@ -65,6 +65,10 @@ Build outputs are written to `source/`. The checked-in playable files are in `do
 
 See [technical build notes](source/BUILD.txt) for memory layout and compression. `source/preview.py` optionally records a native game-loop preview; it also requires ffmpeg.
 
+## Previous version
+
+The original, untimed version 1.0 remains available: [TAP](https://github.com/MmmPT/rewind-zx-spectrum/releases/download/downloads-2026-10-31/Rewind_Quiz_128K.tap) · [SNA snapshot](https://github.com/MmmPT/rewind-zx-spectrum/releases/download/downloads-2026-10-31/Rewind_Quiz_128K.sna). Its existing release assets and download counters are retained.
+
 ## Changes in 1.1
 
 - 20-second deadline and visible remaining-time bar.
@@ -85,6 +89,6 @@ Original songs, compositions, titles and associated properties belong to their r
 
 ## Download statistics
 
-[Download statistics](https://github.com/MmmPT/rewind-zx-spectrum/releases/tag/downloads-2026-10-31) are recorded by GitHub for the release assets from **31 October 2026**. The game page shows the total across the downloadable formats. This counts file downloads, not unique players; earlier direct downloads, repository clones and browser play are not included.
+[Download statistics](https://github.com/MmmPT/rewind-zx-spectrum/releases/tag/downloads-2026-10-31) are recorded by GitHub for the release assets from **31 October 2026**. The game page shows the total for GitHub release assets. Version 1.1 currently uses direct repository downloads, which are not included in this counter. This counts file downloads, not unique players; earlier direct downloads, repository clones and browser play are not included.
 
 Release assets are retained to preserve their counters. For a future game update, publish a new release or use new asset filenames rather than replacing an existing asset, then update the download links.
