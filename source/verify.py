@@ -126,12 +126,12 @@ def test():
     h.call('music_tick');assert h.get('playing')==0
     seen50.append(song)
    right=mode==1 or q%2==0;choice=options.index(song) if right else next(i for i,x in enumerate(options) if x!=song)
-   h.action(49+choice);score+=10 if right else 0;assert h.word('score')==score and h.get('mode')==2
+   h.action(49+choice);score+=100 if right else 0;assert h.word('score')==score and h.get('mode')==2
    h.action(32)
   assert len(set(seen))==length and h.get('mode')==3
   if mode==1:
-   assert score==500 and h.word('score')==500
-   for col,char in zip([14,15,16],'500'):assert glyph(h,11,col)==expected_glyph(char)
+   assert score==5000 and h.word('score')==5000
+   for col,char in zip([14,15,16,17],'5000'):assert glyph(h,11,col)==expected_glyph(char)
    h.image().resize((768,576),Image.Resampling.NEAREST).save(P/'Rewind_Results.png')
   h.action(32);assert h.get('mode')==1 and h.word('score')==0
  assert sorted(seen50)==list(range(50))
@@ -158,6 +158,6 @@ def test():
  assert blocks[3][1:-1]==(P/'game.bin').read_bytes()
  assert blocks[4][1:-1]==(P/'Rewind_Loading.scr').read_bytes()
  for b,k in zip(blocks[5:],[0,1,3,4]):assert b[1:-1]==(P/f'bank{k}.bin').read_bytes()
- result={'50_approved_AY_streams_byte_identical':True,'menu_silent_for_3000_ticks':True,'two_menu_modes_only':True,'normal_25_random_unique_from_50':True,'full_50_shuffled_unique':True,'40_distinct_tested_orders_and_all_50_reached':True,'250_unique_answer_labels_25_per_category':True,'no_repeated_wrong_alternative_in_each_round':True,'same_category_options_and_one_correct':True,'two_line_answers_keep_colour':True,'high_answer_ID_pointers':True,'500_point_scoring_and_display':True,'pause_resume_replay_menu_restart':True,'keyboard_IM2_HALT_debounce':True,'TAP_payloads_checksums':True,'scope':'Z80 CPU with simulated paging and keyboard; full ROM boot verified separately.'}
+ result={'50_approved_AY_streams_byte_identical':True,'menu_silent_for_3000_ticks':True,'two_menu_modes_only':True,'normal_25_random_unique_from_50':True,'full_50_shuffled_unique':True,'40_distinct_tested_orders_and_all_50_reached':True,'250_unique_answer_labels_25_per_category':True,'no_repeated_wrong_alternative_in_each_round':True,'same_category_options_and_one_correct':True,'two_line_answers_keep_colour':True,'high_answer_ID_pointers':True,'5000_point_scoring_and_display':True,'pause_resume_replay_menu_restart':True,'keyboard_IM2_HALT_debounce':True,'TAP_payloads_checksums':True,'scope':'Z80 CPU with simulated paging and keyboard; full ROM boot verified separately.'}
  (P/'verification.json').write_text(json.dumps(result,indent=2));print(json.dumps(result,indent=2))
 if __name__=='__main__':test()

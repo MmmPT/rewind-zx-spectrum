@@ -53,6 +53,8 @@ start:
  ld (lastkey),a
  ld (mode),a
  ld (playing),a
+ ld (frame_clock),a
+ ld (frame_clock+1),a
  ld hl,0x735d
  ld (seed),hl
  ; IM2 handler stays in fixed bank 2. No ROM or system variables used in play.
@@ -61,12 +63,10 @@ start:
  ld bc,256
  ld (hl),0xbd
  ldir
- ld a,0xfb
+ ld a,0xc3
  ld (0xbdbd),a
- ld a,0xed
- ld (0xbdbe),a
- ld a,0x4d
- ld (0xbdbf),a
+ ld hl,irq_handler
+ ld (0xbdbe),hl
  ld a,0xbe
  ld i,a
  im 2
@@ -75,6 +75,7 @@ start:
  ei
 main_loop:
  halt
+ call timer_tick
  call music_tick
  call read_key
  ld b,a
@@ -337,7 +338,8 @@ pick_distractor:
  ld b,4
  call shuffle
  call draw_question
- jp start_music
+ call start_music
+ jp reset_question_timer
 
 next_question:
  ld a,(question_index)
@@ -366,6 +368,8 @@ answer_flag:
  xor a
  ld (playing),a
  call silence
+ ld hl,msg_empty_status
+ call music_status
  ld a,2
  ld (mode),a
  ld hl,msg_wrong
@@ -373,7 +377,9 @@ answer_flag:
  or a
  jr z,answer_message
  ld hl,(score)
- ld de,10
+ ld a,(question_points)
+ ld e,a
+ ld d,0
  add hl,de
  ld (score),hl
  ld a,(correct_count)
@@ -381,8 +387,20 @@ answer_flag:
  ld (correct_count),a
  ld hl,msg_correct
 answer_message:
+ ld a,(question_seconds)
+ or a
+ jr nz,answer_not_timeout
+ ld hl,msg_timeout
+answer_not_timeout:
  ld de,0x0602
  call print_at
+ ld a,(was_correct)
+ or a
+ jr z,answer_painted_message
+ ld a,(question_points)
+ ld de,0x060c
+ call print_number
+answer_painted_message:
  ; Highlight the correct option green; chosen wrong option red.
  ld hl,options
  ld c,0
@@ -441,7 +459,7 @@ results:
  call draw_layout
  ld hl,(score)
  ld de,0x0b0e
- call print_word
+ call print_score
  ld a,(correct_count)
  ld de,0x0e0a
  call print_number
@@ -954,6 +972,22 @@ color_loop:
  pop af
  ret
 
+; The score can reach 5000 in Full mode. Other counters keep three digits.
+print_score:
+ ld bc,1000
+ ld a,48
+score_thousands:
+ or a
+ sbc hl,bc
+ jr c,score_thousands_done
+ inc a
+ jr score_thousands
+score_thousands_done:
+ add hl,bc
+ call putchar
+ inc e
+ jp print_word
+
  ; Three digits, supporting scores through 500. DE is print position.
 print_number:
  ld l,a
@@ -1147,7 +1181,123 @@ window_bottom:
 draw_score:
  ld hl,(score)
  ld de,0x041a
- jp print_word
+ jp print_score
+
+; PAL interrupts provide the clock even during music restart or pause.
+; Preserve registers: the interrupted code may be drawing or decoding music.
+irq_handler:
+ push af
+ push hl
+ ld hl,(frame_clock)
+ inc hl
+ ld (frame_clock),hl
+ pop hl
+ pop af
+ ei
+ reti
+
+reset_question_timer:
+ ld a,20
+ ld (question_seconds),a
+ ld a,100
+ ld (question_points),a
+ ld hl,0
+ ld (timer_frames),hl
+ call draw_timer
+ ld hl,(frame_clock)
+ ld (timer_last_clock),hl
+ ret
+
+timer_tick:
+ ld a,(mode)
+ cp 1
+ ret nz
+ ld hl,(frame_clock)
+ ld de,(timer_last_clock)
+ ld (timer_last_clock),hl
+ or a
+ sbc hl,de
+ ld de,(timer_frames)
+ add hl,de
+consume_timer_seconds:
+ ld de,50
+ or a
+ sbc hl,de
+ jr c,timer_remainder
+ ld a,(question_seconds)
+ dec a
+ ld (question_seconds),a
+ jr z,question_timed_out
+ ld a,(question_points)
+ sub 5
+ ld (question_points),a
+ jr consume_timer_seconds
+timer_remainder:
+ add hl,de
+ ld (timer_frames),hl
+ ld a,(question_seconds)
+ ld b,a
+ ld a,(timer_displayed_seconds)
+ cp b
+ ret z
+ jp draw_timer
+question_timed_out:
+ xor a
+ ld (question_points),a
+ call draw_timer
+ ld a,255
+ ld (chosen_option),a
+ xor a
+ jp answer_flag
+
+draw_timer:
+ ld hl,msg_time
+ ld de,0x0302
+ call print_at
+ ld a,(question_seconds)
+ ld (timer_displayed_seconds),a
+ ld de,0x0307
+ call print_number
+ ld hl,msg_points
+ ld de,0x0311
+ call print_at
+ ld a,(question_points)
+ ld de,0x0318
+ call print_number
+ ld de,0x0506
+ ld b,20
+ ld c,0
+draw_timer_cell:
+ ld a,(question_seconds)
+ cp c
+ ld a,32
+ jr z,timer_empty_cell
+ jr c,timer_empty_cell
+ ld a,104
+timer_empty_cell:
+ call putchar
+ inc e
+ inc c
+ djnz draw_timer_cell
+ ld a,(question_seconds)
+ cp 6
+ ld a,0x45
+ jr nc,timer_colour_ready
+ ld a,0x42
+timer_colour_ready:
+ ld de,0x0506
+ ld b,20
+ call color_row
+ ld de,0x0302
+ ld b,28
+ jp color_row
+
+frame_clock: dw 0
+timer_last_clock: dw 0
+timer_frames: dw 0
+question_seconds: db 20
+question_points: db 100
+timer_displayed_seconds: db 255
 
 mode: db 0
 category: db 0
@@ -1193,6 +1343,8 @@ menu_layout:
  dw msg_full
  db 16,255
  dw msg_random_order
+ db 18,255
+ dw msg_version
  db 21,3
  dw msg_menu_rules
  db 22,3
@@ -1249,9 +1401,9 @@ msg_pop: db 50,32,32,32,80,79,80,32,38,32,82,79,67,75,0
 msg_cartoons: db 51,32,32,32,67,65,82,84,79,79,78,83,0
 msg_tv: db 52,32,32,32,84,86,32,83,69,82,73,69,83,0
 msg_all: db 53,32,32,32,84,72,69,32,70,85,76,76,32,77,73,88,32,45,32,50,48,32,84,85,78,69,83,0
-msg_menu_rules: db 76,73,83,84,69,78,46,32,80,73,67,75,32,49,45,52,46,32,83,67,79,82,69,32,43,49,48,46,0
-msg_menu_rules2: db 82,32,82,69,80,76,65,89,83,46,32,78,79,32,84,73,77,69,32,76,73,77,73,84,46,0
-msg_header: db 82,69,87,73,78,68,32,32,47,32,32,78,65,77,69,32,84,72,65,84,32,84,85,78,69,0
+msg_menu_rules: db 65,78,83,87,69,82,32,70,65,83,84,46,32,83,67,79,82,69,32,85,80,32,84,79,32,49,48,48,46,0
+msg_menu_rules2: db 50,48,32,83,69,67,79,78,68,83,46,32,82,32,82,69,80,76,65,89,83,32,77,85,83,73,67,46,0
+msg_header: db 82,69,87,73,78,68,32,49,46,49,32,47,32,78,65,77,69,32,84,72,65,84,32,84,85,78,69,0
 msg_question: db 81,85,69,83,84,73,79,78,0
 msg_slash: db 47,0
 msg_score: db 83,67,79,82,69,0
@@ -1259,9 +1411,9 @@ msg_name: db 78,65,77,69,32,84,72,65,84,32,84,85,78,69,33,32,32,32,32,32,32,32,3
 msg_playing: db 80,76,65,89,73,78,71,46,46,46,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,0
 msg_paused: db 80,65,85,83,69,68,32,45,32,83,80,65,67,69,32,84,79,32,82,69,83,85,77,69,32,32,32,32,32,0
 msg_finished: db 70,73,78,73,83,72,69,68,32,45,32,82,32,84,79,32,72,69,65,82,32,65,71,65,73,78,32,32,32,0
-msg_controls: db 49,45,52,32,65,78,83,87,69,82,32,32,32,82,32,82,69,80,76,65,89,32,32,32,32,32,32,32,32,32,32,0
-msg_controls2: db 83,80,65,67,69,32,80,65,85,83,69,47,80,76,65,89,32,32,32,81,32,77,69,78,85,32,32,32,32,32,32,0
-msg_correct: db 67,79,82,82,69,67,84,33,32,43,49,48,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,0
+msg_controls: db 49,45,52,32,65,78,83,87,69,82,32,32,82,32,82,69,80,76,65,89,32,32,81,32,77,69,78,85,32,32,32,0
+msg_controls2: db 83,80,65,67,69,32,77,85,83,73,67,32,79,78,76,89,32,47,32,67,76,79,67,75,32,82,85,78,83,32,0
+msg_correct: db 67,79,82,82,69,67,84,33,32,43,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,0
 msg_wrong: db 87,82,79,78,71,32,45,32,71,82,69,69,78,32,73,83,32,84,72,69,32,65,78,83,87,69,82,32,32,0
 msg_next: db 83,80,65,67,69,32,78,69,88,84,32,81,85,69,83,84,73,79,78,32,32,32,32,32,32,32,32,32,32,32,0
 msg_back: db 81,32,66,65,67,75,32,84,79,32,77,69,78,85,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,0
@@ -1277,6 +1429,11 @@ msg_intro: db 80,82,69,83,83,32,83,80,65,67,69,32,84,79,32,83,84,65,82,84,0
 msg_normal: db 49,32,32,32,78,79,82,77,65,76,32,45,32,50,53,32,82,65,78,68,79,77,32,84,85,78,69,83,0
 msg_full: db 50,32,32,32,70,85,76,76,32,32,32,45,32,65,76,76,32,53,48,32,84,85,78,69,83,0
 msg_random_order: db 65,32,68,73,70,70,69,82,69,78,84,32,77,73,88,32,69,86,69,82,89,32,84,73,77,69,0
+msg_version: db 86,49,46,49,32,45,32,50,48,32,83,69,67,79,78,68,32,67,72,65,76,76,69,78,71,69,0
+msg_empty_status: db 32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,0
+msg_time: db 84,73,77,69,0
+msg_points: db 80,79,73,78,84,83,0
+msg_timeout: db 84,73,77,69,32,85,80,32,45,32,71,82,69,69,78,32,73,83,32,84,72,69,32,65,78,83,87,69,82,0
 font:
  mdat "font.bin"
  include "songs.inc"

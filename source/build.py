@@ -65,6 +65,7 @@ font+=bytes([
  32,32,32,32,16,15,0,0,
  0,0,0,0,0,255,0,0,
  4,4,4,4,8,240,0,0])
+font+=bytes([255]*8) # UDG 104: remaining-time bar
 (P/'font.bin').write_bytes(font)
 # Delta encode approved register bytes, then LZ-pack. Unpack one compact stream
 # into bank 7 on song selection; the original real-time delta reader stays intact.

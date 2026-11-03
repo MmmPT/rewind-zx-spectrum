@@ -5,6 +5,7 @@ ffmpeg must be installed for audio/video previews.
 python3 -m pip install pyz80==1.3.0 skoolkit==10.1 z80 Pillow numpy scipy mido
 python3 build.py
 python3 verify.py
+python3 verify_timer.py
 python3 verify_rom.py
 python3 preview.py
 
@@ -33,3 +34,11 @@ SONG TABLE
 50 entries: fifty quiz songs.
 Each entry: bank+16 byte; source address word; frame count word; packed length word.
 The menu does not start a music stream.
+
+VERSION 1.1 TIMER
+Fixed-bank IM2 handler increments a 16-bit PAL frame clock, preserving AF/HL.
+The deadline starts after question preparation and music decompression.
+50 interrupt frames per second; 20 seconds per question.
+Replay, pause and music completion do not stop or reset this clock.
+Correct award = 5 * remaining whole seconds (100 down to 5); timeout = 0.
+Timer stops in feedback, menu and results. Maximum score 5000.

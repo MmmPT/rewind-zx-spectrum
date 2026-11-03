@@ -10,9 +10,18 @@
   "answer_titles": 250,
   "per_category": 25,
   "menu_music": null,
-  "core_bytes": 8623,
-  "tap_bytes": 81189,
+  "core_bytes": 9027,
+  "tap_bytes": 81593,
   "compression": "LZ over lossless AY delta stream; one-song bank-7 cache",
   "approved_AY_bytes_preserved": true,
-  "validated": "Z80 CPU, 128K ROM fast tape boot and native-loop preview; no physical hardware test"
+  "validated": "Z80 CPU, 128K ROM fast tape boot and native-loop preview; no physical hardware test",
+  "version": "1.1",
+  "seconds_per_question": 20,
+  "points_per_correct": "5 times whole seconds remaining (100 down to 5)",
+  "timeout_points": 0,
+  "maximum_scores": {
+    "normal": 2500,
+    "full": 5000
+  },
+  "timer_runs_during_music_pause_and_replay": true
 }

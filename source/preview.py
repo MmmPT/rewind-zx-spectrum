@@ -33,12 +33,10 @@ def main():
  h=Harness();h.boot(intro=True);last=None;imagebytes=None;audio=[]
  movie=P/'preview_silent.mp4'
  ff=subprocess.Popen(['ffmpeg','-nostdin','-y','-v','error','-f','rawvideo','-pix_fmt','rgb24','-s','768x576','-r','25','-i','-','-an','-c:v','libx264','-preset','fast','-crf','18','-pix_fmt','yuv420p',str(movie)],stdin=subprocess.PIPE)
- for f in range(1250):
-  key={50:32,250:49,310:32,360:32,450:82,650:81,750:50,1150:81}.get(f)
-  if f==550:
+ for f in range(1500):
+  key={25:32,75:49,325:32}.get(f)
+  if f==225:
    options=list(h.m.memory[S['options']:S['options']+4]);key=49+options.index(h.get('current_song'))
-  if f==1050:
-   options=list(h.m.memory[S['options']:S['options']+4]);key=49+next(i for i,x in enumerate(options) if x!=h.get('current_song'))
   h.keys=set() if key is None else {key}
   h.m.ticks_to_stop=4;h.m.run();assert h.m.halted
   h.m.on_handle_active_int();h.run_to(S['main_loop'])
