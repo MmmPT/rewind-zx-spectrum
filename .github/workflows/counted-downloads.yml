@@ -35,3 +35,22 @@ jobs:
               gh release upload "$tag" "$file"
             fi
           done
+      - name: Publish REWIND 1.1 downloads
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          tag="v1.1"
+          if ! gh release view "$tag" >/dev/null 2>&1; then
+            gh release create "$tag" --target "$GITHUB_SHA" --title "REWIND 1.1" --notes "Twenty seconds per question. Faster correct answers earn 100 down to 5 points. Includes the aligned TIMER bar, 50 AY tunes and both shuffled modes. The original version 1.0 remains available. Created with ChatGPT / OpenAI Codex." --latest
+          fi
+          for file in downloads/Rewind_Quiz_v1.1_128K.tap downloads/Rewind_Quiz_v1.1_128K.sna; do
+            name="$(basename "$file")"
+            if gh release view "$tag" --json assets --jq '.assets[].name' | grep -Fxq "$name"; then
+              echo "Keeping existing asset and its counter: $name"
+            else
+              gh release upload "$tag" "$file"
+            fi
+          done

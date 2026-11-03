@@ -12,8 +12,8 @@ Developed with the assistance of **ChatGPT / OpenAI Codex**: game code, music co
 
 ## Download and play
 
-- [Download the TAP](downloads/Rewind_Quiz_v1.1_128K.tap?raw=true)
-- [Download the 128K SNA snapshot](downloads/Rewind_Quiz_v1.1_128K.sna?raw=true)
+- [Download the TAP](https://github.com/MmmPT/rewind-zx-spectrum/releases/download/v1.1/Rewind_Quiz_v1.1_128K.tap)
+- [Download the 128K SNA snapshot](https://github.com/MmmPT/rewind-zx-spectrum/releases/download/v1.1/Rewind_Quiz_v1.1_128K.sna)
 
 Select a **ZX Spectrum 128K PAL** model in your emulator. Load the TAP with `LOAD ""`, or open the SNA snapshot directly. After the loading screen, press **Space** to open the menu.
 
@@ -89,6 +89,6 @@ Original songs, compositions, titles and associated properties belong to their r
 
 ## Download statistics
 
-[Download statistics](https://github.com/MmmPT/rewind-zx-spectrum/releases/tag/downloads-2026-10-31) are recorded by GitHub for the release assets from **31 October 2026**. The game page shows the total for GitHub release assets. Version 1.1 currently uses direct repository downloads, which are not included in this counter. This counts file downloads, not unique players; earlier direct downloads, repository clones and browser play are not included.
+[Download statistics](https://github.com/MmmPT/rewind-zx-spectrum/releases/tag/downloads-2026-10-31) are recorded by GitHub for the release assets from **31 October 2026**. The game page shows the total for GitHub release assets. Both version 1.0 and version 1.1 release assets are included. This counts file downloads, not unique players; earlier direct downloads, repository clones and browser play are not included.
 
 Release assets are retained to preserve their counters. For a future game update, publish a new release or use new asset filenames rather than replacing an existing asset, then update the download links.
