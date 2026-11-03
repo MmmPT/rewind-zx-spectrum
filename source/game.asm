@@ -1264,7 +1264,10 @@ draw_timer:
  ld a,(question_points)
  ld de,0x0318
  call print_number
- ld de,0x0506
+ ld hl,msg_timer_bar
+ ld de,0x0501
+ call print_at
+ ld de,0x0508
  ld b,20
  ld c,0
 draw_timer_cell:
@@ -1285,8 +1288,8 @@ timer_empty_cell:
  jr nc,timer_colour_ready
  ld a,0x42
 timer_colour_ready:
- ld de,0x0506
- ld b,20
+ ld de,0x0501
+ ld b,27
  call color_row
  ld de,0x0302
  ld b,28
@@ -1431,6 +1434,7 @@ msg_full: db 50,32,32,32,70,85,76,76,32,32,32,45,32,65,76,76,32,53,48,32,84,85,7
 msg_random_order: db 65,32,68,73,70,70,69,82,69,78,84,32,77,73,88,32,69,86,69,82,89,32,84,73,77,69,0
 msg_version: db 86,49,46,49,32,45,32,50,48,32,83,69,67,79,78,68,32,67,72,65,76,76,69,78,71,69,0
 msg_empty_status: db 32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,0
+msg_timer_bar: db 84,73,77,69,82,0
 msg_time: db 84,73,77,69,0
 msg_points: db 80,79,73,78,84,83,0
 msg_timeout: db 84,73,77,69,32,85,80,32,45,32,71,82,69,69,78,32,73,83,32,84,72,69,32,65,78,83,87,69,82,0

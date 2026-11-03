@@ -42,7 +42,7 @@ def test():
  for i,row in enumerate([9,12,15,18]):
   a=h.m.memory[22528+row*32+2]
   assert a==0x44 if i==correct else a in (0x45,0x46)
- for col in range(6,26):assert glyph(h,5,col)==bytes(8)
+ for col in range(8,28):assert glyph(h,5,col)==bytes(8)
  h.image().resize((768,576),Image.Resampling.NEAREST).save(P/'Rewind_Time_Up.png')
  clock_advance(h,100);assert h.get('mode')==2 and h.word('score')==0
  h.action(32);assert h.get('mode')==1 and h.get('question_seconds')==20
